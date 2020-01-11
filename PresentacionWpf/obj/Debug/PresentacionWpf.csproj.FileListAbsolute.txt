@@ -13,3 +13,5 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionW
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\PresentacionWpf.csproj.CoreCompileInputs.cache
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\PresentacionWpf.exe
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\PresentacionWpf.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\LoginWindow.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\LoginWindow.baml
