@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTienda", "ApiTienda\ApiTienda.csproj", "{220AC4FB-8851-410C-99D2-563A3F59FCCA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{2E52F06F-7431-4F46-8A7D-990EC7152A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{CB650E0F-4712-48BC-BCBA-FF109AEABF5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaEntidades", "CapaEntidades\CapaEntidades.csproj", "{727AC3C4-92C1-4C4D-9FB5-EFCCEA9AE21B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{8D2DE198-9953-45AB-A35B-FC8A3E841FCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaPresentacion", "CapaPresentacion\CapaPresentacion.csproj", "{16E26C0D-E91C-4921-ACD9-D52E7C9725BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentacionWpf", "PresentacionWpf\PresentacionWpf.csproj", "{153D2880-CB5D-4B9A-B9AF-7E4C9E9145C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{220AC4FB-8851-410C-99D2-563A3F59FCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220AC4FB-8851-410C-99D2-563A3F59FCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220AC4FB-8851-410C-99D2-563A3F59FCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220AC4FB-8851-410C-99D2-563A3F59FCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E52F06F-7431-4F46-8A7D-990EC7152A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E52F06F-7431-4F46-8A7D-990EC7152A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E52F06F-7431-4F46-8A7D-990EC7152A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E52F06F-7431-4F46-8A7D-990EC7152A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB650E0F-4712-48BC-BCBA-FF109AEABF5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB650E0F-4712-48BC-BCBA-FF109AEABF5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB650E0F-4712-48BC-BCBA-FF109AEABF5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB650E0F-4712-48BC-BCBA-FF109AEABF5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727AC3C4-92C1-4C4D-9FB5-EFCCEA9AE21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727AC3C4-92C1-4C4D-9FB5-EFCCEA9AE21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727AC3C4-92C1-4C4D-9FB5-EFCCEA9AE21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727AC3C4-92C1-4C4D-9FB5-EFCCEA9AE21B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2DE198-9953-45AB-A35B-FC8A3E841FCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2DE198-9953-45AB-A35B-FC8A3E841FCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2DE198-9953-45AB-A35B-FC8A3E841FCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2DE198-9953-45AB-A35B-FC8A3E841FCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16E26C0D-E91C-4921-ACD9-D52E7C9725BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16E26C0D-E91C-4921-ACD9-D52E7C9725BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16E26C0D-E91C-4921-ACD9-D52E7C9725BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16E26C0D-E91C-4921-ACD9-D52E7C9725BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153D2880-CB5D-4B9A-B9AF-7E4C9E9145C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153D2880-CB5D-4B9A-B9AF-7E4C9E9145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153D2880-CB5D-4B9A-B9AF-7E4C9E9145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153D2880-CB5D-4B9A-B9AF-7E4C9E9145C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00639ED8-3A25-4F5D-8265-2EBA2F763444}
+	EndGlobalSection
+EndGlobal

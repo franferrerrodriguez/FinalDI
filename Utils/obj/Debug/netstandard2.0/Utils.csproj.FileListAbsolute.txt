@@ -1,0 +1,139 @@
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\Utils.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\Utils.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Security.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Security.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\Accessibility.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\Utils\obj\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Security.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Security.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.deps.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Utils.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Security.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Configuration.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Accessibility.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Deployment.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Windows.Forms.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Security.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Configuration.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\Accessibility.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Deployment.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\bin\Debug\netstandard2.0\System.Runtime.Serialization.Formatters.Soap.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CoreCompileInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csproj.CopyComplete
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\Utils\obj\Debug\netstandard2.0\Utils.csprojAssemblyReference.cache

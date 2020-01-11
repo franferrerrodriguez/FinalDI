@@ -1,0 +1,40 @@
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Newtonsoft.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Newtonsoft.Json.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\obj\Debug\Capa Negocio.csproj.CopyComplete
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Negocio.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Negocio.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Datos.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Entidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\bin\Debug\Capa Datos.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\obj\Debug\Capa Negocio.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary3\obj\Debug\Capa Negocio.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Entidades.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Entidades.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.csproj.CopyComplete
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.dll.config
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.dll.config
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.dll.config
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Negocio.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Newtonsoft.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Entidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Capa Datos.dll.config
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\bin\Debug\Newtonsoft.Json.xml
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.csproj.CopyComplete
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary3\obj\Debug\Capa Negocio.pdb

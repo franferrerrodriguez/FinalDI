@@ -1,0 +1,15 @@
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary2\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary2\bin\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary2\bin\Debug\Capa Entidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary2\obj\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ClassLibrary2\obj\Debug\Capa Entidades.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary2\bin\Debug\Capa Entidades.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary2\bin\Debug\Capa Entidades.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary2\bin\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary2\bin\Debug\Capa Entidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\ClassLibrary2\obj\Debug\Capa Entidades.pdb

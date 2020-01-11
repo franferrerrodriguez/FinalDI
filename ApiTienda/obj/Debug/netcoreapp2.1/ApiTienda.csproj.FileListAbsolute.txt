@@ -1,0 +1,176 @@
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Profesor\source\repos\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+E:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+E:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+E:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+E:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+E:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+E:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+D:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+D:\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+D:\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Antonio\Desktop\ApiTienda\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\ApiTienda2.1\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\Francisco J. Ferrer\Dropbox\2DAM\Desarrollo de interfaces\1º Trimestre\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Downloads\Ferrer_Francisco_Capas\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.Development.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\appsettings.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.deps.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\bin\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\ApiTienda\obj\Debug\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache

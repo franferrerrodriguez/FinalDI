@@ -1,0 +1,985 @@
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\netstandard.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.AppContext.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Collections.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ComponentModel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Console.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Data.Common.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Globalization.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.Compression.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.Pipes.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Linq.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Http.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Ping.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Requests.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Security.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.Sockets.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ObjectModel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Reflection.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Resources.Reader.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Resources.Writer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Claims.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.Principal.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Security.SecureString.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Text.Encoding.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.Thread.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Threading.Timer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.ValueTuple.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.XPath.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\CapaEntidades.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Buffers.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Memory.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\CapaEntidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Buffers.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Memory.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_Capas\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\netstandard.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.AppContext.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Console.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Data.Common.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Pipes.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Http.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Ping.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Requests.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Security.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Sockets.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ObjectModel.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Reader.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Writer.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Claims.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Principal.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.SecureString.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Thread.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Timer.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fferrero\Downloads\2\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\netstandard.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.AppContext.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Console.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Data.Common.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Pipes.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Http.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Ping.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Requests.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Security.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Sockets.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ObjectModel.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Reader.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Writer.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Claims.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Principal.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.SecureString.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Thread.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Timer.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fferrero\Downloads\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\netstandard.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.AppContext.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Console.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Data.Common.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.Pipes.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Http.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Ping.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Requests.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Security.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.Sockets.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ObjectModel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Reader.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Resources.Writer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Claims.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.Principal.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Security.SecureString.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Thread.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Threading.Timer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_Capas - copia\CapaDatos\bin\Debug\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\netstandard.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.AppContext.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Console.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Data.Common.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Pipes.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Http.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Ping.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Requests.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Security.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Sockets.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ObjectModel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Reader.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Writer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Claims.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Principal.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.SecureString.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Thread.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Timer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.pdb
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fferrero\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll.config
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\netstandard.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.AppContext.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Console.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Data.Common.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Pipes.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Http.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Ping.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Requests.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Security.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Sockets.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ObjectModel.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Reader.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Writer.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Claims.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Principal.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.SecureString.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Thread.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Timer.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ValueTuple.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.pdb
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.dll
+\\DESKTOP-OE86CIH\Home\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll.config
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\netstandard.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.AppContext.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Console.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Data.Common.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Pipes.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Http.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Ping.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Requests.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Security.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Sockets.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ObjectModel.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Reader.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Writer.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Claims.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Principal.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.SecureString.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Thread.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Timer.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ValueTuple.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.pdb
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\fran_\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll.config
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaDatos.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\netstandard.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.AppContext.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Concurrent.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.NonGeneric.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Collections.Specialized.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ComponentModel.TypeConverter.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Console.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Data.Common.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Contracts.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Debug.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Process.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.StackTrace.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tools.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.TraceSource.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Diagnostics.Tracing.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Drawing.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Dynamic.Runtime.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Calendars.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Globalization.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.FileSystem.Watcher.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.IsolatedStorage.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.MemoryMappedFiles.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.Pipes.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Expressions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Parallel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Linq.Queryable.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Http.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NameResolution.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.NetworkInformation.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Ping.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Requests.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Security.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.Sockets.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebHeaderCollection.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Net.WebSockets.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ObjectModel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Reflection.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Reader.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.ResourceManager.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Resources.Writer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Handles.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Numerics.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Formatters.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.Serialization.Xml.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Claims.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Csp.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.Principal.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Security.SecureString.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.Encoding.Extensions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Text.RegularExpressions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Overlapped.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Tasks.Parallel.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Thread.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.ThreadPool.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Threading.Timer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.ValueTuple.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XmlSerializer.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Xml.XPath.XDocument.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\CapaEntidades.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Microsoft.Extensions.Primitives.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Newtonsoft.Json.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Buffers.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Memory.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Numerics.Vectors.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CoreCompileInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.csproj.CopyComplete
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\obj\Debug\CapaDatos.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\CapaDatos\bin\Debug\Utils.pdb
