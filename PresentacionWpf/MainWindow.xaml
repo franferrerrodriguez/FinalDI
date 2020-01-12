@@ -31,8 +31,9 @@
             <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
         </EventTrigger>
     </Window.Triggers>
-    
+
     <Grid Background="LightGray">
+        <Grid x:Name="panel" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="867" Width="970" Margin="0,0,-0.333,0"/>
         <Grid Height="60" VerticalAlignment="Top" Background="#FF0091C0" Grid.ColumnSpan="2" Margin="0,0,-0.333,0">
             <TextBlock Text="Design with WPF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -51,7 +52,8 @@
         </Grid>
         <Grid x:Name="GridMenu" Width="300" HorizontalAlignment="Left" Background="#FF0046C0">
             <StackPanel>
-                <Grid Height="60" Background="Red">
+                <Grid Height="60" Background="#FF0091C0">
+                    <TextBlock Text="Menú" HorizontalAlignment="Left" Margin="20" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
                     <Button x:Name="openMenu" Width="60" Height="60" VerticalAlignment="Top" HorizontalAlignment="Right" Click="ButtonOpenMenu_Click" Visibility="Collapsed">
                         <materialDesign:PackIcon Foreground="White" Kind="Menu" Width="25"/>
                     </Button>
@@ -59,23 +61,17 @@
                         <materialDesign:PackIcon Foreground="White" Kind="Menu" Width="25"/>
                     </Button>
                 </Grid>
-                <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Foreground="White" Background="Green">
-                    <ListViewItem Height="60" Cursor="Hand">
+                <ListView x:Name="ListViewMenu" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Foreground="White" Background="Green" SelectionChanged="ListViewMenu_SelectionChanged">
+                    <ListViewItem x:Name="item1" Height="60" Cursor="Hand">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
                             <TextBlock Text="Menu 1" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
-                    <ListViewItem Height="60" Cursor="Hand">
+                    <ListViewItem x:Name="item2" Height="60" Cursor="Hand">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
                             <TextBlock Text="Menu 2" VerticalAlignment="Center" Margin="20 10"/>
-                        </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="60" Cursor="Hand">
-                        <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
-                            <TextBlock Text="Menu 3" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
                 </ListView>

@@ -37,5 +37,25 @@ namespace PresentacionWpf
             closeMenu.Visibility = Visibility.Collapsed;
         }
 
+        private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            UserControl uc = null;
+            panel.Children.Clear();
+
+            switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
+            {
+                case "item1":
+                    uc = new UserControl1();
+                    panel.Children.Add(uc);
+                    break;
+                case "item2":
+                    uc = new UserControl2();
+                    panel.Children.Add(uc);
+                    break;
+                default:
+                    break;
+            }
+        }
+
     }
 }

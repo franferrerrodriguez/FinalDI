@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\Ferrer_Francisco_TiendaDAM\\Utils\\Utils.csproj",
+      "projectUniqueName": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\FinalDI\\Utils\\Utils.csproj",
       "projectName": "Utils",
-      "projectPath": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\Ferrer_Francisco_TiendaDAM\\Utils\\Utils.csproj",
+      "projectPath": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\FinalDI\\Utils\\Utils.csproj",
       "packagesPath": "C:\\Users\\Francisco J. Ferrer\\.nuget\\packages\\",
-      "outputPath": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\Ferrer_Francisco_TiendaDAM\\Utils\\obj\\",
+      "outputPath": "D:\\Usuarios\\Francisco J. Ferrer\\Desktop\\FinalDI\\Utils\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
