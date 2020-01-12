@@ -4,9 +4,82 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PresentacionWpf"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="960" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+
+    <Window.Resources>
+        <Storyboard x:Key="MenuOpen">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="60"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="300"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Key="MenuClose">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
+                <EasingDoubleKeyFrame KeyTime="0" Value="300"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="60"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="openMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuOpen}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="closeMenu">
+            <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
+        </EventTrigger>
+    </Window.Triggers>
+    
+    <Grid Background="LightGray">
+        <Grid Height="60" VerticalAlignment="Top" Background="#FF0091C0" Grid.ColumnSpan="2" Margin="0,0,-0.333,0">
+            <TextBlock Text="Design with WPF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
+            <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
+                <TextBlock Text="Francisco Ferrer" VerticalAlignment="Center" FontSize="18" Foreground="White"/>
+                <materialDesign:PopupBox Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Foreground="White" Cursor="Hand">
+                    <StackPanel Width="150">
+                        <Button Content="1" Cursor="Hand"></Button>
+                        <Button Content="2" Cursor="Hand"></Button>
+                        <Button Content="3" Cursor="Hand"></Button>
+                        <Button Content="4" Cursor="Hand"></Button>
+                        <Separator></Separator>
+                        <Button Content="Logout" Cursor="Hand"></Button>
+                    </StackPanel>
+                </materialDesign:PopupBox>
+            </StackPanel>
+        </Grid>
+        <Grid x:Name="GridMenu" Width="300" HorizontalAlignment="Left" Background="#FF0046C0">
+            <StackPanel>
+                <Grid Height="60" Background="Red">
+                    <Button x:Name="openMenu" Width="60" Height="60" VerticalAlignment="Top" HorizontalAlignment="Right" Click="ButtonOpenMenu_Click" Visibility="Collapsed">
+                        <materialDesign:PackIcon Foreground="White" Kind="Menu" Width="25"/>
+                    </Button>
+                    <Button x:Name="closeMenu" Width="60" Height="60" VerticalAlignment="Top" HorizontalAlignment="Right" Click="ButtonCloseMenu_Click">
+                        <materialDesign:PackIcon Foreground="White" Kind="Menu" Width="25"/>
+                    </Button>
+                </Grid>
+                <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Foreground="White" Background="Green">
+                    <ListViewItem Height="60" Cursor="Hand">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Text="Menu 1" VerticalAlignment="Center" Margin="20 10"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Cursor="Hand">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Text="Menu 2" VerticalAlignment="Center" Margin="20 10"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60" Cursor="Hand">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ViewDashboard" Margin="10" Width="25" Height="25" VerticalAlignment="Center"/>
+                            <TextBlock Text="Menu 3" VerticalAlignment="Center" Margin="20 10"/>
+                        </StackPanel>
+                    </ListViewItem>
+                </ListView>
+            </StackPanel>
+        </Grid>
     </Grid>
 </Window>

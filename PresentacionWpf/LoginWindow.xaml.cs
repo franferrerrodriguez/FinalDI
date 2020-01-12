@@ -36,7 +36,10 @@ namespace PresentacionWpf
 
         private void Button_Login(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Login");
+            MessageBox.Show("Login: " + textBoxLoginUser.Text);
+            Hide();
+            MainWindow mw = new MainWindow();
+            mw.Show();
         }
 
         private void TextBlock_ForgotPassword(object sender, MouseButtonEventArgs e)

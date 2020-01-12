@@ -24,5 +24,18 @@ namespace PresentacionWpf
         {
             InitializeComponent();
         }
+
+        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        {
+            openMenu.Visibility = Visibility.Collapsed;
+            closeMenu.Visibility = Visibility.Visible;
+        }
+
+        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
+        {
+            openMenu.Visibility = Visibility.Visible;
+            closeMenu.Visibility = Visibility.Collapsed;
+        }
+
     }
 }

@@ -15,3 +15,10 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionW
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\PresentacionWpf.pdb
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\LoginWindow.g.cs
 D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\LoginWindow.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\bin\Debug\MaterialDesignColors.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\bin\Debug\MaterialDesignColors.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\App.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\Ferrer_Francisco_TiendaDAM\PresentacionWpf\obj\Debug\PresentacionWpf.csproj.CopyComplete
