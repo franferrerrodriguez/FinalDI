@@ -1,0 +1,14 @@
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\bin\Release\netcoreapp2.1\ApiTienda.deps.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\bin\Release\netcoreapp2.1\ApiTienda.runtimeconfig.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\bin\Release\netcoreapp2.1\ApiTienda.runtimeconfig.dev.json
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\bin\Release\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\bin\Release\netcoreapp2.1\ApiTienda.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.csprojAssemblyReference.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.csproj.CoreCompileInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.RazorAssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.AssemblyInfoInputs.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.AssemblyInfo.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.RazorTargetAssemblyInfo.cache
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\ApiTienda\obj\Release\netcoreapp2.1\ApiTienda.pdb

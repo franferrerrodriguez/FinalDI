@@ -20,6 +20,8 @@ namespace PresentacionWpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        UserControl uc = null;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -39,21 +41,49 @@ namespace PresentacionWpf
 
         private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            UserControl uc = null;
-            panel.Children.Clear();
+            SelectUserControl(((ListViewItem)((ListView)sender).SelectedItem).Name);
+        }
 
-            switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
+        private void SelectUserControl(string item)
+        {
+            switch (item)
             {
-                case "item1":
+                case "Archivo_Salir":
+                    MessageBox.Show("Archivo_Salir");
+                    break;
+                case "Usuarios_Insertar":
+                    panel_Main.Children.Clear();
                     uc = new UserControl1();
-                    panel.Children.Add(uc);
+                    panel_Main.Children.Add(uc);
                     break;
-                case "item2":
+                case "Usuarios_Modificar":
+                    panel_Main.Children.Clear();
                     uc = new UserControl2();
-                    panel.Children.Add(uc);
+                    panel_Main.Children.Add(uc);
                     break;
-                default:
+                case "Usuarios_Eliminar":
+                    MessageBox.Show("Usuarios_Eliminar");
                     break;
+                case "Productos_Consultar":
+                    MessageBox.Show("Productos_Consultar");
+                    break;
+                case "Pedidos_Nuevo":
+                    MessageBox.Show("Pedidos_Nuevo");
+                    break;
+                case "Pedidos_ConsultarModificar":
+                    MessageBox.Show("Pedidos_ConsultarModificar");
+                    break;
+                case "Estadisticas":
+                    MessageBox.Show("Estadisticas");
+                    break;
+                case "Informes_Facturas":
+                    MessageBox.Show("Informes_Facturas");
+                    break;
+            }
+            if(uc != null)
+            {
+                uc.VerticalAlignment = VerticalAlignment.Top;
+                uc.HorizontalAlignment = HorizontalAlignment.Center;
             }
         }
 
