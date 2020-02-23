@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="PresentacionWpf.TableViewUsuariosUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PresentacionWpf"
+             mc:Ignorable="d" Width="1070" Height="842">
+    <Grid Name="GridUsuario">
+        <Grid.Background>
+            <SolidColorBrush Color="#FFF0F0F0"/>
+        </Grid.Background>
+        <Label Name="labelTitleFichaUsuario" Content="Insertar usuario" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="400"/>
+        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="564" Margin="44,247,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" CurrentCellChanged="dataGridListaModificarUsuario_Click" Cursor="Hand">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding UsuarioID}"/>
+                <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
+                <DataGridTextColumn Header="Nombre" Binding="{Binding Nombre}"/>
+                <DataGridTextColumn Header="Apellidos" Binding="{Binding Apellidos}"/>
+                <DataGridTextColumn Header="Documento" Binding="{Binding Dni}"/>
+                <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}"/>
+                <DataGridTextColumn Header="Código postal" Binding="{Binding Codpos}"/>
+                <DataGridTextColumn Header="Fecha nacimiento" Binding="{Binding Nacido}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

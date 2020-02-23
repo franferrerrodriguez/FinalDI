@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
 using System.Windows.Forms;
 
@@ -33,11 +32,6 @@ namespace Utils
                     label.Text = "Eliminar " + section;
                     break;
             }
-        }
-
-        public static void SetTitulo(Modos modo, object labelTitleFichaUsuario, string v)
-        {
-            throw new NotImplementedException();
         }
 
         public static string CalculateMD5Hash(string input)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CapaNegocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +13,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Utils;
+using static Utils.Utilities;
 
 namespace PresentacionWpf
 {
@@ -22,9 +25,10 @@ namespace PresentacionWpf
     {
         UserControl uc = null;
 
-        public MainWindow()
+        public MainWindow(LoginWindow loginWindow)
         {
             InitializeComponent();
+            textBoxUsername.Text = loginWindow.textBoxLoginUser.Text;
         }
 
         private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
@@ -44,25 +48,35 @@ namespace PresentacionWpf
             SelectUserControl(((ListViewItem)((ListView)sender).SelectedItem).Name);
         }
 
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            e.Cancel = !LoginNegocio.ExitApp();
+            if (!e.Cancel)
+                Environment.Exit(0);
+        }
+
         private void SelectUserControl(string item)
         {
             switch (item)
             {
                 case "Archivo_Salir":
-                    MessageBox.Show("Archivo_Salir");
+                    if (LoginNegocio.ExitApp())
+                        Environment.Exit(0);
                     break;
                 case "Usuarios_Insertar":
                     panel_Main.Children.Clear();
-                    uc = new UserControl1();
+                    uc = new FichaUsuariosUserControl(Utils.Utilities.Modos.Insertar, this);
                     panel_Main.Children.Add(uc);
                     break;
                 case "Usuarios_Modificar":
                     panel_Main.Children.Clear();
-                    uc = new UserControl2();
+                    uc = new TableViewUsuariosUserControl(Utils.Utilities.Modos.Modificar, this);
                     panel_Main.Children.Add(uc);
                     break;
                 case "Usuarios_Eliminar":
-                    MessageBox.Show("Usuarios_Eliminar");
+                    panel_Main.Children.Clear();
+                    uc = new TableViewUsuariosUserControl(Utils.Utilities.Modos.Eliminar, this);
+                    panel_Main.Children.Add(uc);
                     break;
                 case "Productos_Consultar":
                     MessageBox.Show("Productos_Consultar");

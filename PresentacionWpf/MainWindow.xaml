@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:PresentacionWpf"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
+        Closing="Window_Closing"
         Title="MainWindow" Height="960" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
 
     <Window.Resources>
@@ -36,6 +37,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1220"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
+        <Color x:Key="BackgroundWindow">#FFF0F0F0</Color>
     </Window.Resources>
 
     <Window.Triggers>
@@ -48,12 +50,16 @@
     </Window.Triggers>
 
     <Grid Background="LightGray">
-        <Grid x:Name="panel_Main" HorizontalAlignment="Right" VerticalAlignment="Top" Height="842" Width="1070" Margin="0,50,-0.333,0"/>
+        <Grid x:Name="panel_Main" HorizontalAlignment="Right" VerticalAlignment="Top" Height="842" Width="1070" Margin="0,50,-0.333,0">
+            <Grid.Background>
+                <SolidColorBrush Color="{DynamicResource BackgroundWindow}"/>
+            </Grid.Background>
+        </Grid>
         <Grid x:Name="panel_StatusBar" HorizontalAlignment="Right" VerticalAlignment="Top" Height="40" Width="1070" Margin="0,892,-0.333,0" Background="Green"/>
         <Grid Height="50" VerticalAlignment="Top" Background="#FF0091C0" Grid.ColumnSpan="2" Margin="0,0,-0.333,0">
             <TextBlock Text="Design with WPF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
-                <TextBlock Text="Francisco Ferrer" VerticalAlignment="Center" FontSize="18" Foreground="White"/>
+                <TextBlock Name="textBoxUsername" VerticalAlignment="Center" FontSize="18" Foreground="White"/>
                 <materialDesign:PopupBox Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Foreground="White" Cursor="Hand">
                     <StackPanel Width="150">
                         <Button Content="1" Cursor="Hand"></Button>
@@ -80,7 +86,7 @@
                 </Grid>
 
                 <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Focusable="False" SelectionChanged="ListViewMenu_SelectionChanged">
-                    
+
                     <!-- MENU 1 -->
                     <ListViewItem x:Name="Archivo" Foreground="#FF0091C0" FontWeight="Bold">
                         <StackPanel Orientation="Horizontal">
@@ -94,7 +100,7 @@
                             <TextBlock Text="Salir" VerticalAlignment="Center" Margin="20 0 0 0"/>
                         </StackPanel>
                     </ListViewItem>
-                    
+
                     <!-- MENU 2 -->
                     <ListViewItem x:Name="Usuarios" Foreground="#FF0091C0" FontWeight="Bold">
                         <StackPanel Orientation="Horizontal">
