@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaMarcas = JsonConvert.DeserializeObject<List<Marca>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     marca = JsonConvert.DeserializeObject<Marca>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

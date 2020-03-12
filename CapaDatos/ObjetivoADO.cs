@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaObjetivos = JsonConvert.DeserializeObject<List<Objetivo>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     objetivo = JsonConvert.DeserializeObject<Objetivo>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

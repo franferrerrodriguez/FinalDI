@@ -157,7 +157,7 @@ namespace CapaNegocio
                     else
                         return Constants.ERROR_BORRADO_DESCONOCIDO;
                 else
-                    return Constants.ERROR_BORRADO_DESCONOCIDO;
+                    return Constants.ERROR_BORRADO_USUARIO_PEDIDOS;
             }
             catch (Exception e)
             {

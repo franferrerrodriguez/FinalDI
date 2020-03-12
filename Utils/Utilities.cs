@@ -6,7 +6,7 @@ namespace Utils
 {
     public class Utilities
     {
-        public enum Modos { Consultar, Seleccionar, Insertar, Modificar, Eliminar };
+        public enum Modos { Cerrar, Consultar, Seleccionar, Insertar, Modificar, Eliminar };
 
         public static bool ConfirmDialog(String title, String message)
         {

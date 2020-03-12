@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaCamaras = JsonConvert.DeserializeObject<List<Camara>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     camara = JsonConvert.DeserializeObject<Camara>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

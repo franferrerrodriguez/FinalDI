@@ -10,7 +10,15 @@
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
         <Label Name="labelTitleFichaUsuario" Content="Insertar usuario" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="400"/>
-        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="564" Margin="44,247,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" CurrentCellChanged="dataGridListaModificarUsuario_Click" Cursor="Hand">
+        <Label Content="Filtro nombre:" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxFiltrarNombre" HorizontalAlignment="Left" Height="23" Margin="44,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarNombre_KeyUp"/>
+        <Label Content="Filtro email:" HorizontalAlignment="Left" Margin="44,136,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxFiltrarEmail" HorizontalAlignment="Left" Height="23" Margin="44,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarEmail_KeyUp"/>
+        <Label Content="Filtro apellidos" HorizontalAlignment="Left" Margin="281,79,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxFiltrarApellidos" HorizontalAlignment="Left" Height="23" Margin="281,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarApellidos_KeyUp"/>
+        <TextBlock HorizontalAlignment="Left" Margin="281,136,0,0" TextWrapping="Wrap" Text="Filtro documento" VerticalAlignment="Top"/>
+        <TextBox Name="textBoxFiltrarDocumento" HorizontalAlignment="Left" Height="23" Margin="281,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarDocumento_KeyUp"/>
+        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="636" Margin="44,196,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" CurrentCellChanged="dataGridListaModificarUsuario_Click" Cursor="Hand">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding UsuarioID}"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
@@ -19,8 +27,9 @@
                 <DataGridTextColumn Header="Documento" Binding="{Binding Dni}"/>
                 <DataGridTextColumn Header="Teléfono" Binding="{Binding Telefono}"/>
                 <DataGridTextColumn Header="Código postal" Binding="{Binding Codpos}"/>
-                <DataGridTextColumn Header="Fecha nacimiento" Binding="{Binding Nacido}"/>
+                <DataGridTextColumn Header="Fecha nacimiento" Binding="{Binding Nacido, StringFormat='dd/MM/yyyy'}"/>
             </DataGrid.Columns>
         </DataGrid>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="922,114,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
     </Grid>
 </UserControl>

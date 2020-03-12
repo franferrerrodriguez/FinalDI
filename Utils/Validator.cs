@@ -37,7 +37,7 @@ namespace Utils
 
         public static bool ValidatePassword(String str)
         {
-            return true;
+            return str.Length >= 4 ? true : false;
         }
 
         public static bool ValidateDateNac(DateTime date)

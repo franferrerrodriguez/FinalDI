@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaLinpeds = JsonConvert.DeserializeObject<List<Linped>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     linped = JsonConvert.DeserializeObject<List<Linped>>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

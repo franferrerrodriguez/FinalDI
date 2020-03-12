@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaMemorias = JsonConvert.DeserializeObject<List<Memoria>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     memoria = JsonConvert.DeserializeObject<Memoria>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

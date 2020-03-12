@@ -55,7 +55,9 @@
                 <SolidColorBrush Color="{DynamicResource BackgroundWindow}"/>
             </Grid.Background>
         </Grid>
-        <Grid x:Name="panel_StatusBar" HorizontalAlignment="Right" VerticalAlignment="Top" Height="40" Width="1070" Margin="0,892,-0.333,0" Background="Green"/>
+        <Grid x:Name="panel_StatusBar" HorizontalAlignment="Right" VerticalAlignment="Top" Height="40" Width="1070" Margin="0,892,-0.333,0">
+            <Label Name="LabelStatus" Content="LabelStatus" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="1050" FontWeight="Bold"/>
+        </Grid>
         <Grid Height="50" VerticalAlignment="Top" Background="#FF0091C0" Grid.ColumnSpan="2" Margin="0,0,-0.333,0">
             <TextBlock Text="Design with WPF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -85,7 +87,7 @@
                     </Button>
                 </Grid>
 
-                <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Focusable="False" SelectionChanged="ListViewMenu_SelectionChanged">
+                <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Focusable="False" PreviewMouseLeftButtonUp="ListView_PreviewMouseLeftButtonUp">
 
                     <!-- MENU 1 -->
                     <ListViewItem x:Name="Archivo" Foreground="#FF0091C0" FontWeight="Bold">

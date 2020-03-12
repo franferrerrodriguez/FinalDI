@@ -17,46 +17,30 @@
         <Label Content="Nombre (*):" HorizontalAlignment="Left" Margin="44,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
         <TextBox Name="txtUsuariosNombre" HorizontalAlignment="Left" Height="23" Margin="44,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Nombre}"/>
         <Label Content="Apellidos (*):" HorizontalAlignment="Left" Margin="44,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosApellidos" HorizontalAlignment="Left" Height="23" Margin="44,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosApellidos" HorizontalAlignment="Left" Height="23" Margin="44,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Apellidos}"/>
         <Label Content="Email (*):" HorizontalAlignment="Left" Margin="44,288,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosEmail" HorizontalAlignment="Left" Height="23" Margin="44,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosEmail" HorizontalAlignment="Left" Height="23" Margin="44,317,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Email}"/>
         <Label Content="NIF/NIE (*):" HorizontalAlignment="Left" Margin="44,365,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosDocumento" HorizontalAlignment="Left" Height="23" Margin="44,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosDocumento" HorizontalAlignment="Left" Height="23" Margin="44,394,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Dni}"/>
         <Label Content="Teléfono (*):" HorizontalAlignment="Left" Margin="44,441,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosTelefono" HorizontalAlignment="Left" Height="23" Margin="44,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosTelefono" HorizontalAlignment="Left" Height="23" Margin="44,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Telefono}"/>
         <Label Content="Contraseña (*):" HorizontalAlignment="Left" Margin="44,517,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosContrasena" HorizontalAlignment="Left" Height="23" Margin="44,546,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <PasswordBox Name="txtUsuariosContrasena" HorizontalAlignment="Left" Height="23" Margin="44,546,0,0" VerticalAlignment="Top" Width="400" Background="White"/>
         <Label Content="Repite contraseña (*):" HorizontalAlignment="Left" Margin="44,590,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosContrasena2" HorizontalAlignment="Left" Height="23" Margin="44,619,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <PasswordBox Name="txtUsuariosContrasena2" HorizontalAlignment="Left" Height="23" Margin="44,619,0,0" VerticalAlignment="Top" Width="400" Background="White"/>
         <Label Content="Fecha de nacimiento (*):" HorizontalAlignment="Left" Margin="44,666,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <DatePicker Name="datePickerFechaNac" HorizontalAlignment="Left" Margin="44,695,0,0" VerticalAlignment="Top" Width="243" Background="#FFFF0707" BorderBrush="#89000000" Foreground="Black"/>
+        <DatePicker Name="datePickerFechaNac" HorizontalAlignment="Left" Margin="44,695,0,0" VerticalAlignment="Top" Width="243" Background="#FFFF0707" BorderBrush="#89000000" Foreground="Black" Text="{Binding Path=Nacido, StringFormat='{}{0:yyyy-MM-dd hh:mm:ss}'}" IsTodayHighlighted="False"/>
         <Label Content="Calle 1 (*):" HorizontalAlignment="Left" Margin="621,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosCalle1" HorizontalAlignment="Left" Height="23" Margin="621,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosCalle1" HorizontalAlignment="Left" Height="23" Margin="621,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Calle}"/>
         <Label Content="Calle 2 (*):" HorizontalAlignment="Left" Margin="621,213,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosCalle2" HorizontalAlignment="Left" Height="23" Margin="621,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
+        <TextBox Name="txtUsuariosCalle2" HorizontalAlignment="Left" Height="23" Margin="621,242,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Calle2}"/>
         <Label Content="Provincia (*):" HorizontalAlignment="Left" Margin="621,288,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <ComboBox Name="comboBoxUsuariosProvincia" HorizontalAlignment="Left" Margin="621,312,0,0" VerticalAlignment="Top" Width="400" Background="White" ItemsSource="{Binding}" SelectionChanged="comboBoxProvincia_SelectedIndexChanged">
-            <ComboBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Margin="2">
-                        <TextBlock Text="{Binding Path=Nombre}" Margin="2" />
-                    </StackPanel>
-                </DataTemplate>
-            </ComboBox.ItemTemplate>
-        </ComboBox>
+        <ComboBox Name="comboBoxUsuariosProvincia" HorizontalAlignment="Left" Margin="621,312,0,0" VerticalAlignment="Top" Width="400" Background="White" ItemsSource="{Binding}" SelectedValuePath="ProvinciaID" DisplayMemberPath="Nombre" SelectionChanged="comboBoxProvincia_SelectedIndexChanged"/>
         <Label Content="Pueblo (*):" HorizontalAlignment="Left" Margin="621,365,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <ComboBox Name="comboBoxtUsuariosLocalidad" HorizontalAlignment="Left" Margin="621,391,0,0" VerticalAlignment="Top" Width="400" Background="White" ItemsSource="{Binding}">
-            <ComboBox.ItemTemplate>
-                <DataTemplate>
-                    <StackPanel Orientation="Horizontal" Margin="2">
-                        <TextBlock Text="{Binding Path=Nombre}" Margin="2" />
-                    </StackPanel>
-                </DataTemplate>
-            </ComboBox.ItemTemplate>
-        </ComboBox>
+        <ComboBox Name="comboBoxtUsuariosLocalidad" HorizontalAlignment="Left" Margin="621,391,0,0" VerticalAlignment="Top" Width="400" Background="White" ItemsSource="{Binding}" SelectedValuePath="LocalidadID" DisplayMemberPath="Nombre"/>
         <Label Content="Cóldigo Postal (*):" HorizontalAlignment="Left" Margin="621,441,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
-        <TextBox Name="txtUsuariosCp" HorizontalAlignment="Left" Height="23" Margin="621,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White"/>
-        <Button Content="Cancelar" HorizontalAlignment="Left" Margin="921,686,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button Content="Guardar" HorizontalAlignment="Left" Margin="802,686,0,0" VerticalAlignment="Top" Width="100"/>
+        <TextBox Name="txtUsuariosCp" HorizontalAlignment="Left" Height="23" Margin="621,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="400" Background="White" Text="{Binding Mode=TwoWay, Path=Codpos}"/>
+        <Button Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="802,686,0,0" VerticalAlignment="Top" Width="100" Click="BtnGuardar_Click"/>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="921,686,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
     </Grid>
 </UserControl>

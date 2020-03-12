@@ -29,6 +29,10 @@ namespace Capa_datos
                     listaPedidos = JsonConvert.DeserializeObject<List<Pedido>>(aux);
                     listaPedidos = ActualizarListaLinped(listaPedidos);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -52,6 +56,10 @@ namespace Capa_datos
                     pedido = JsonConvert.DeserializeObject<Pedido>(aux);
                     LinpedADO linpedAdo = new LinpedADO();
                     pedido.ListLinped = linpedAdo.LeerLinped(pedido.PedidoID);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

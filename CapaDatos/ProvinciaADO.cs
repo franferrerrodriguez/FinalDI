@@ -37,6 +37,10 @@ namespace Capa_datos
                             if (localidad.ProvinciaID.Equals(provincia.ProvinciaID))
                                 provincia.ListLocalidades.Add(localidad);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -58,6 +62,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     provincia = JsonConvert.DeserializeObject<Provincia>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

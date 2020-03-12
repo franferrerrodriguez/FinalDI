@@ -39,6 +39,10 @@ namespace Capa_datos
 
                     listaUsuarios = JsonConvert.DeserializeObject<List<Usuario>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -66,6 +70,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     usuario = JsonConvert.DeserializeObject<Usuario>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)

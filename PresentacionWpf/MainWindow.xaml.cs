@@ -29,6 +29,7 @@ namespace PresentacionWpf
         {
             InitializeComponent();
             textBoxUsername.Text = loginWindow.textBoxLoginUser.Text;
+            SetStatusException();
         }
 
         private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
@@ -41,11 +42,6 @@ namespace PresentacionWpf
         {
             openMenu.Visibility = Visibility.Visible;
             closeMenu.Visibility = Visibility.Collapsed;
-        }
-
-        private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            SelectUserControl(((ListViewItem)((ListView)sender).SelectedItem).Name);
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -64,19 +60,13 @@ namespace PresentacionWpf
                         Environment.Exit(0);
                     break;
                 case "Usuarios_Insertar":
-                    panel_Main.Children.Clear();
-                    uc = new FichaUsuariosUserControl(Utils.Utilities.Modos.Insertar, this);
-                    panel_Main.Children.Add(uc);
+                    SetUserControlChildren(Modos.Insertar, new FichaUsuariosUserControl(Modos.Insertar, this));
                     break;
                 case "Usuarios_Modificar":
-                    panel_Main.Children.Clear();
-                    uc = new TableViewUsuariosUserControl(Utils.Utilities.Modos.Modificar, this);
-                    panel_Main.Children.Add(uc);
+                    SetUserControlChildren(Modos.Insertar, new TableViewUsuariosUserControl(Modos.Modificar, this));
                     break;
                 case "Usuarios_Eliminar":
-                    panel_Main.Children.Clear();
-                    uc = new TableViewUsuariosUserControl(Utils.Utilities.Modos.Eliminar, this);
-                    panel_Main.Children.Add(uc);
+                    SetUserControlChildren(Modos.Insertar, new TableViewUsuariosUserControl(Modos.Eliminar, this));
                     break;
                 case "Productos_Consultar":
                     MessageBox.Show("Productos_Consultar");
@@ -101,5 +91,40 @@ namespace PresentacionWpf
             }
         }
 
+        public void CloseUserControl()
+        {
+            panel_Main.Children.Clear();
+        }
+
+        public void SetUserControlChildren(Utilities.Modos modo, UserControl uc = null)
+        {
+            CloseUserControl();
+            if (!modo.Equals(Modos.Cerrar) && uc != null)
+                panel_Main.Children.Add(uc);
+        }
+
+        private void ListView_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            SelectUserControl(((ListViewItem)((ListView)sender).SelectedItem).Name);
+        }
+
+        public void SetStatusException(Exception e = null)
+        {
+            if(e == null)
+            {
+                LabelStatus.Content = "Estado: Correcto";
+                LabelStatus.FontSize = 10;
+                LabelStatus.Foreground = Brushes.Green;
+            }
+            else
+            {
+                LabelStatus.Content = String.Format("Estado: {0}", e.Message);
+                LabelStatus.FontSize = 8;
+                LabelStatus.Foreground = Brushes.Red;
+            }
+
+        }
+
     }
+
 }

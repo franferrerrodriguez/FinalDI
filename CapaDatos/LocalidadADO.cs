@@ -28,6 +28,10 @@ namespace Capa_datos
 
                     listaLocalidades = JsonConvert.DeserializeObject<List<Localidad>>(aux);
                 }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
+                }
             }
             catch (Exception e)
             {
@@ -49,6 +53,10 @@ namespace Capa_datos
                     aux = response.Content.ReadAsStringAsync().Result;
 
                     localidad = JsonConvert.DeserializeObject<Localidad>(aux);
+                }
+                else
+                {
+                    throw new ExternalException(JsonConvert.SerializeObject(response));
                 }
             }
             catch (Exception e)
