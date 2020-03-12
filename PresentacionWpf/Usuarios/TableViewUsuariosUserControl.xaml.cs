@@ -103,7 +103,7 @@ namespace PresentacionWpf
             }
         }
 
-        private void dataGridListaModificarUsuario_Click(object sender, EventArgs e)
+        private void DataGrid_GotFocus(object sender, RoutedEventArgs e)
         {
             usuario = (Usuario)dataGrid.CurrentCell.Item;
 
@@ -142,12 +142,12 @@ namespace PresentacionWpf
 
                 Close();
             }*/
-
         }
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)
         {
             mainWindow.SetUserControlChildren(Modos.Cerrar);
         }
+
     }
 }

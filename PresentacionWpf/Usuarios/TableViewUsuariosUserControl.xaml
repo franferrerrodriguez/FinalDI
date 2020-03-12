@@ -3,7 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:PresentacionWpf"
              mc:Ignorable="d" Width="1070" Height="842">
     <Grid Name="GridUsuario">
         <Grid.Background>
@@ -18,7 +17,7 @@
         <TextBox Name="textBoxFiltrarApellidos" HorizontalAlignment="Left" Height="23" Margin="281,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarApellidos_KeyUp"/>
         <TextBlock HorizontalAlignment="Left" Margin="281,136,0,0" TextWrapping="Wrap" Text="Filtro documento" VerticalAlignment="Top"/>
         <TextBox Name="textBoxFiltrarDocumento" HorizontalAlignment="Left" Height="23" Margin="281,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White" KeyUp="TextBoxFiltrarDocumento_KeyUp"/>
-        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="636" Margin="44,196,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" CurrentCellChanged="dataGridListaModificarUsuario_Click" Cursor="Hand">
+        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="636" Margin="44,196,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" GotFocus="DataGrid_GotFocus" Cursor="Hand" IsReadOnly="True">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Id" Binding="{Binding UsuarioID}"/>
                 <DataGridTextColumn Header="Email" Binding="{Binding Email}"/>
