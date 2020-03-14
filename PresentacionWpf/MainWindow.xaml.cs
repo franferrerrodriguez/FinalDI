@@ -77,6 +77,9 @@ namespace PresentacionWpf
                 case "Pedidos_ConsultarModificar":
                     SetUserControlChildren(new TableViewPedidosUserControl(Modos.Modificar, this));
                     break;
+                case "Pedidos_Eliminar":
+                    SetUserControlChildren(new TableViewPedidosUserControl(Modos.Eliminar, this));
+                    break;
                 case "Estadisticas":
                     MessageBox.Show("Estadisticas");
                     break;

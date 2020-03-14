@@ -162,7 +162,13 @@
                             <TextBlock Text="Consultar / Modificar" VerticalAlignment="Center" Margin="20 0 0 0"/>
                         </StackPanel>
                     </ListViewItem>
-
+                    <ListViewItem x:Name="Pedidos_Eliminar" Cursor="Hand" Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ShoppingCartRemove" Margin="10 0 0 0" Width="20" Height="20" VerticalAlignment="Center"/>
+                            <TextBlock Text="Eliminar" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    
                     <!-- MENU 5 -->
                     <ListViewItem x:Name="Estadisticas" Foreground="#FF0091C0" FontWeight="Bold">
                         <StackPanel Orientation="Horizontal">
