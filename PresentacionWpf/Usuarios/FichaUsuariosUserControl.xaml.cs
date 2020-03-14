@@ -27,8 +27,7 @@ namespace PresentacionWpf
             mainWindow = (MainWindow)windowParent;
             this.userControlParent = userControlParent;
             tableViewUsuariosUserControl = (TableViewUsuariosUserControl)userControlParent;
-            UtilsControl.SetTitulo(modo, labelTitleFichaUsuario, "usuarios");
-
+            UtilsControl.SetTitulo(modo, labelTitle, "usuarios");
             mainWindow.SetStatusException();
 
             try
@@ -77,15 +76,15 @@ namespace PresentacionWpf
                 Localidad localidad = (Localidad)comboBoxtUsuariosLocalidad.SelectedItem;
 
                 Usuario usuario = new Usuario(
-                    txtUsuariosEmail.Text,
-                    CalculateMD5Hash(txtUsuariosContrasena.Password),
-                    txtUsuariosNombre.Text.ToUpper(),
-                    txtUsuariosApellidos.Text.ToUpper(),
-                    txtUsuariosDocumento.Text,
-                    txtUsuariosTelefono.Text,
-                    txtUsuariosCalle1.Text,
-                    txtUsuariosCalle2.Text,
-                    txtUsuariosCp.Text,
+                    textBoxUsuariosEmail.Text,
+                    CalculateMD5Hash(textBoxUsuariosContrasena.Password),
+                    textBoxUsuariosNombre.Text.ToUpper(),
+                    textBoxUsuariosApellidos.Text.ToUpper(),
+                    textBoxUsuariosDocumento.Text,
+                    textBoxUsuariosTelefono.Text,
+                    textBoxUsuariosCalle.Text,
+                    textBoxUsuariosCalle2.Text,
+                    textBoxUsuariosCp.Text,
                     localidad.LocalidadID,
                     provincia.ProvinciaID,
                     datePickerFechaNac.SelectedDate.Value.Date
@@ -105,7 +104,7 @@ namespace PresentacionWpf
                         if (userControlParent != null && typeof(TableViewUsuariosUserControl).Equals(userControlParent.GetType()))
                         {
                             TableViewUsuariosUserControl uc = (TableViewUsuariosUserControl)userControlParent;
-                            mainWindow.SetUserControlChildren(uc.modo, userControlParent);
+                            mainWindow.SetUserControlChildren(userControlParent);
                             uc.RefreshTable();
                         }
                     }
@@ -120,37 +119,37 @@ namespace PresentacionWpf
 
         private bool ValidateFields()
         {
-            if (!Validator.ValidateEmpty(txtUsuariosNombre.Text))
+            if (!Validator.ValidateEmpty(textBoxUsuariosNombre.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_NOMBRE);
                 return false;
             }
-            if (!Validator.ValidateEmpty(txtUsuariosApellidos.Text))
+            if (!Validator.ValidateEmpty(textBoxUsuariosApellidos.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_APELLIDOS);
                 return false;
             }
-            if (!Validator.ValidateEmail(txtUsuariosEmail.Text))
+            if (!Validator.ValidateEmail(textBoxUsuariosEmail.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_EMAIL);
                 return false;
             }
-            if (!Validator.ValidateDocument(txtUsuariosDocumento.Text))
+            if (!Validator.ValidateDocument(textBoxUsuariosDocumento.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_NIFNIE);
                 return false;
             }
-            if (!Validator.ValidatePhone(txtUsuariosTelefono.Text))
+            if (!Validator.ValidatePhone(textBoxUsuariosTelefono.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_TELEFONO);
                 return false;
             }
-            if (!Validator.ValidatePassword(txtUsuariosContrasena.Password))
+            if (!Validator.ValidatePassword(textBoxUsuariosContrasena.Password))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_PASSWORD);
                 return false;
             }
-            if (!txtUsuariosContrasena.Password.Equals(txtUsuariosContrasena2.Password))
+            if (!textBoxUsuariosContrasena.Password.Equals(textBoxUsuariosContrasena2.Password))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_PASSWORD_COINCIDENCE);
                 return false;
@@ -170,7 +169,7 @@ namespace PresentacionWpf
                 MessageBox.Show(Constants.ERROR_VALIDATE_LOCALIDAD);
                 return false;
             }
-            if (!Validator.ValidatePostalCode(txtUsuariosCp.Text))
+            if (!Validator.ValidatePostalCode(textBoxUsuariosCp.Text))
             {
                 MessageBox.Show(Constants.ERROR_VALIDATE_CP);
                 return false;
@@ -180,13 +179,19 @@ namespace PresentacionWpf
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)
         {
+            Close();
+        }
+
+        private void Close()
+        {
             if (userControlParent != null && typeof(TableViewUsuariosUserControl).Equals(userControlParent.GetType()))
             {
                 TableViewUsuariosUserControl uc = (TableViewUsuariosUserControl)userControlParent;
-                mainWindow.SetUserControlChildren(uc.modo, userControlParent);
+                mainWindow.SetUserControlChildren(userControlParent);
             }
             else
-                mainWindow.SetUserControlChildren(Modos.Cerrar, userControlParent);
+                mainWindow.SetUserControlChildren(userControlParent);
         }
+
     }
 }

@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="PresentacionWpf.TableViewPedidosUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Width="1070" Height="842">
+    <Grid Name="GridPedidos">
+        <Grid.Background>
+            <SolidColorBrush Color="#FFF0F0F0"/>
+        </Grid.Background>
+        <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="400"/>
+        <DataGrid Name="dataGrid" HorizontalAlignment="Left" Height="636" Margin="44,196,0,0" VerticalAlignment="Top" Width="978" ItemsSource="{Binding}" AutoGenerateColumns="False" GotFocus="DataGrid_GotFocus" Cursor="Hand" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="PedidoID" Binding="{Binding PedidoID}" Width="300"/>
+                <DataGridTextColumn Header="UsuarioID" Binding="{Binding UsuarioID}" Width="300"/>
+                <DataGridTextColumn Header="Fecha" Binding="{Binding Fecha}" Width="300"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="922,104,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
+        <Label Content="Filtrar por usuario:" HorizontalAlignment="Left" Margin="47,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.112,-0.145"/>
+        <TextBox x:Name="textBoxUsuarioId" HorizontalAlignment="Left" Height="23" Margin="47,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="130" Background="White" Text="{Binding Nombre, Mode=TwoWay}" IsEnabled="False"/>
+        <TextBox x:Name="textBoxUsuarioNombre" HorizontalAlignment="Left" Height="23" Margin="195,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Background="White" Text="{Binding Nombre, Mode=TwoWay}" IsEnabled="False"/>
+        <Button x:Name="btnAnadirUsuario" Content="Añadir" HorizontalAlignment="Left" Margin="500,104,0,0" VerticalAlignment="Top" Width="65" Height="23" FontSize="10" FontWeight="Normal" Click="BtnAnadirUsuario_Click"/>
+        <Button x:Name="btnQuitarUsuario" Content="Quitar" HorizontalAlignment="Left" Margin="570,104,0,0" VerticalAlignment="Top" Width="65" Height="23" FontSize="10" FontWeight="Normal" Click="BtnQuitarUsuario_Click"/>
+        <Label Content="Fecha inicio:" HorizontalAlignment="Left" Margin="44,136,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datePickerFechaInicio" HorizontalAlignment="Left" Margin="47,155,0,0" VerticalAlignment="Top" Width="217" BorderBrush="Black" Foreground="Black" Text="{Binding Nacido, StringFormat=\{0:yyyy-MM-dd hh:mm:ss\}}" IsTodayHighlighted="False" Background="White" CalendarClosed="DatePickerFechaInicio_CalendarClosed"/>
+        <Label Content="Fecha fin:" HorizontalAlignment="Left" Margin="281,136,0,0" VerticalAlignment="Top"/>
+        <DatePicker x:Name="datePickerFechaFin" HorizontalAlignment="Left" Margin="284,157,0,0" VerticalAlignment="Top" Width="217" BorderBrush="Black" Foreground="Black" Text="{Binding Nacido, StringFormat=\{0:yyyy-MM-dd hh:mm:ss\}}" IsTodayHighlighted="False" Background="White" CalendarClosed="DatePickerFechaFin_CalendarClosed"/>
+    </Grid>
+</UserControl>

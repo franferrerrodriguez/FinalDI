@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\App.xaml
-41439002090
+81308955699
 
-91108146131
+13-1973400015
 1261160761313
-LoginWindow.xaml;MainWindow.xaml;Usuarios\TableViewUsuariosUserControl.xaml;Usuarios\FichaUsuariosUserControl.xaml;
+LoginWindow.xaml;MainWindow.xaml;Pedidos\FichaPedidosUserControl.xaml;Pedidos\TableViewPedidosUserControl.xaml;Productos\FichaProductosUserControl.xaml;Productos\TableViewProductosUserControl.xaml;Usuarios\TableViewUsuariosUserControl.xaml;Usuarios\FichaUsuariosUserControl.xaml;
 
 False
 

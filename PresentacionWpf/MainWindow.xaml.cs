@@ -60,22 +60,22 @@ namespace PresentacionWpf
                         Environment.Exit(0);
                     break;
                 case "Usuarios_Insertar":
-                    SetUserControlChildren(Modos.Insertar, new FichaUsuariosUserControl(Modos.Insertar, this));
+                    SetUserControlChildren(new FichaUsuariosUserControl(Modos.Insertar, this));
                     break;
                 case "Usuarios_Modificar":
-                    SetUserControlChildren(Modos.Insertar, new TableViewUsuariosUserControl(Modos.Modificar, this));
+                    SetUserControlChildren(new TableViewUsuariosUserControl(Modos.Modificar, this));
                     break;
                 case "Usuarios_Eliminar":
-                    SetUserControlChildren(Modos.Insertar, new TableViewUsuariosUserControl(Modos.Eliminar, this));
+                    SetUserControlChildren(new TableViewUsuariosUserControl(Modos.Eliminar, this));
                     break;
                 case "Productos_Consultar":
-                    MessageBox.Show("Productos_Consultar");
+                    SetUserControlChildren(new FichaProductosUserControl(Modos.Consultar, this));
                     break;
                 case "Pedidos_Nuevo":
-                    MessageBox.Show("Pedidos_Nuevo");
+                    SetUserControlChildren(new FichaPedidosUserControl(Modos.Insertar, this));
                     break;
                 case "Pedidos_ConsultarModificar":
-                    MessageBox.Show("Pedidos_ConsultarModificar");
+                    SetUserControlChildren(new TableViewPedidosUserControl(Modos.Modificar, this));
                     break;
                 case "Estadisticas":
                     MessageBox.Show("Estadisticas");
@@ -96,10 +96,10 @@ namespace PresentacionWpf
             panel_Main.Children.Clear();
         }
 
-        public void SetUserControlChildren(Utilities.Modos modo, UserControl uc = null)
+        public void SetUserControlChildren(UserControl uc = null)
         {
             CloseUserControl();
-            if (!modo.Equals(Modos.Cerrar) && uc != null)
+            if (uc != null)
                 panel_Main.Children.Add(uc);
         }
 

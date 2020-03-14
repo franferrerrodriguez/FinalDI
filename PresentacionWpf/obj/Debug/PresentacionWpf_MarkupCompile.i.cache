@@ -1,0 +1,20 @@
+﻿PresentacionWpf
+
+
+winexe
+C#
+.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\
+PresentacionWpf
+none
+false
+DEBUG;TRACE
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\App.xaml
+81308955699
+
+171473509979
+1261160761313
+LoginWindow.xaml;MainWindow.xaml;Pedidos\FichaPedidosUserControl.xaml;Pedidos\TableViewPedidosUserControl.xaml;Productos\FichaProductosUserControl.xaml;Productos\TableViewProductosUserControl.xaml;Usuarios\TableViewUsuariosUserControl.xaml;Usuarios\FichaUsuariosUserControl.xaml;
+
+True
+

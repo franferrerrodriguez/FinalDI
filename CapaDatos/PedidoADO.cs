@@ -168,6 +168,14 @@ namespace Capa_datos
             return tmpListPedidos;
         }
 
+        public long Max()
+        {
+            List<Pedido> listPedidos = LeerPedidos();
+            if(listPedidos.Count > 0)
+                return listPedidos[listPedidos.Count - 1].PedidoID;
+            return 0;
+        }
+
     }
 
 }

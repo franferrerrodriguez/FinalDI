@@ -365,5 +365,10 @@ namespace CapaNegocio
             return tmpListPedidos;
         }
 
+        public long Max()
+        {
+            return pedidoAdo.Max();
+        }
+
     }
 }

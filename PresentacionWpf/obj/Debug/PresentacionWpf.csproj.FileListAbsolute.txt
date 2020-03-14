@@ -135,3 +135,11 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Presen
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\PresentacionWpf.exe
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\PresentacionWpf.pdb
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\PresentacionWpf.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Pedidos\TableViewPedidosUserControl.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Pedidos\FichaPedidosUserControl.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Pedidos\TableViewPedidosUserControl.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Pedidos\FichaPedidosUserControl.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\TableViewProductosUserControl.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\FichaProductosUserControl.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\TableViewProductosUserControl.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\FichaProductosUserControl.baml
