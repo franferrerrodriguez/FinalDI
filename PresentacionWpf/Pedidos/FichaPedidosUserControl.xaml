@@ -29,16 +29,31 @@
         <Button x:Name="btnAnadirArticulo" Content="Añadir artículo" HorizontalAlignment="Left" Margin="805,238,0,0" VerticalAlignment="Top" Width="100" FontSize="10" Height="24" Click="BtnAnadirArticulo_Click"/>
         <Button x:Name="btnQuitarArticulo" Content="Quitar artículo
                 " HorizontalAlignment="Left" Margin="924,237,0,0" VerticalAlignment="Top" Width="100" Height="24" FontSize="10" Click="BtnQuitarArticulo_Click"/>
-        <ListView Margin="44,272,46,10" Name="lvDataBinding" Background="White" Foreground="#DD000000" BorderBrush="#000">
+        <ListView Name="listViewLineasPedido" Margin="44,272,46,78" Background="White" Foreground="#DD000000" BorderBrush="#000">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Línea" Width="150" DisplayMemberBinding="{Binding Linea}"/>
                     <GridViewColumn Header="ID Artículo" Width="150" DisplayMemberBinding="{Binding ArticuloID}"/>
                     <GridViewColumn Header="Nombre artículo" Width="350" DisplayMemberBinding="{Binding NombreArticulo}"/>
-                    <GridViewColumn Header="Cantidad" Width="150" DisplayMemberBinding="{Binding Cantidad}"/>
+                    <GridViewColumn Header="Cantidad" Width="150">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBox Name="textBoxLineCantidad" Text="{Binding Cantidad}" Width="80" TextWrapping="Wrap" Margin="0" LostFocus="TextBoxLineCantidad_LostFocus"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
                     <GridViewColumn Header="Importe" Width="150" DisplayMemberBinding="{Binding Importe}"/>
                 </GridView>
             </ListView.View>
         </ListView>
+        <Label Content="Base imponible:" HorizontalAlignment="Left" Margin="44,769,0,0" VerticalAlignment="Top"/>
+        <Label Content="I.V.A. (%):" HorizontalAlignment="Left" Margin="327,769,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.802,0.417"/>
+        <Label Content="Total I.V.A.:" HorizontalAlignment="Left" Margin="626,769,0,0" VerticalAlignment="Top"/>
+        <Label Content="Importe total" HorizontalAlignment="Left" Margin="899,769,0,0" VerticalAlignment="Top"/>
+        <Label HorizontalAlignment="Left" Margin="44,798,0,0" VerticalAlignment="Top" Width="980" Background="#FFB7B7B7" Height="1"/>
+        <TextBox Name="textBoxBi" HorizontalAlignment="Left" Height="23" Margin="44,809,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White" IsEnabled="False"/>
+        <TextBox Name="textBoxIva" HorizontalAlignment="Left" Height="23" Margin="327,809,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White" IsEnabled="False"/>
+        <TextBox Name="textBoxTotalIva" HorizontalAlignment="Left" Height="23" Margin="626,809,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White" IsEnabled="False"/>
+        <TextBox Name="textBoxImporteTotal" HorizontalAlignment="Left" Height="23" Margin="904,809,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="White" IsEnabled="False"/>
     </Grid>
 </UserControl>

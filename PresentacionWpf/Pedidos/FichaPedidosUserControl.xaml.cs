@@ -38,11 +38,16 @@ namespace PresentacionWpf
             pedidosNegocio = new PedidosNegocio();
             productosNegocio = new ProductosNegocio();
             usuariosNegocio = new UsuariosNegocio();
-            
+            listLinpeds = new List<Linped>();
+
             datePickerFecha.Text = DateTime.Now.Date.ToString();
 
-            if(modo.Equals(Modos.Insertar))
+            if (modo.Equals(Modos.Insertar))
+            {
+                btnAnadirArticulo.IsEnabled = false;
+                btnQuitarArticulo.IsEnabled = false;
                 textBoxPedidoId.Text = (pedidosNegocio.Max() + 1).ToString();
+            }
             else if (modo.Equals(Modos.Modificar))
                 Cargar(tableViewUsuariosUserControl.pedido);
         }
@@ -58,15 +63,21 @@ namespace PresentacionWpf
                 MessageBox.Show("Debe seleccionar un Id de pedido antes de poder crear el pedido.");
             else if (string.IsNullOrEmpty(textBoxUsuarioId.Text))
                 MessageBox.Show("Debe seleccionar un usuario antes de poder crear el pedido.");
-            else if (listLinpeds.Count.Equals(0))
-                MessageBox.Show("Debe introducir al menos una línea de artículo antes de poder crear el pedido.");
             else
                 try
                 {
+                    pedido = new Pedido(long.Parse(textBoxPedidoId.Text), long.Parse(textBoxUsuarioId.Text), datePickerFecha.SelectedDate.Value.Date, listLinpeds);
                     if (modo.Equals(Modos.Insertar))
-                        MessageBox.Show(pedidosNegocio.InsertarPedido(new Pedido(long.Parse(textBoxPedidoId.Text), long.Parse(textBoxUsuarioId.Text), datePickerFecha.SelectedDate.Value.Date, listLinpeds)));
+                    {
+                        MessageBox.Show(pedidosNegocio.InsertarPedido(pedido));
+                        modo = Modos.Modificar;
+                        textBoxPedidoId.IsEnabled = false;
+                        datePickerFecha.IsEnabled = false;
+                        btnAnadirArticulo.IsEnabled = true;
+                        btnQuitarArticulo.IsEnabled = true;
+                    }
                     else if (modo.Equals(Modos.Modificar))
-                        MessageBox.Show(pedidosNegocio.ActualizarPedido(new Pedido(long.Parse(textBoxPedidoId.Text), long.Parse(textBoxUsuarioId.Text), datePickerFecha.SelectedDate.Value.Date, listLinpeds)));
+                        MessageBox.Show(pedidosNegocio.ActualizarPedido(pedido));
                 }
                 catch (Exception ex)
                 {
@@ -92,6 +103,8 @@ namespace PresentacionWpf
                 Usuario usuario = usuariosNegocio.LeerUsuario(pedido.UsuarioID);
                 textBoxUsuarioNombre.Text = usuario.Nombre;
 
+                listLinpeds = pedidosNegocio.LeerLinped(pedido.PedidoID);
+
                 RefreshTable();
             }
             catch (Exception e)
@@ -106,10 +119,9 @@ namespace PresentacionWpf
             {
                 try
                 {
-                    listLinpeds = pedidosNegocio.LeerLinped(pedido.PedidoID);
                     listLinpedsNegocio = LinpedNegocio.GenerarListLinped(listLinpeds);
-                    lvDataBinding.ItemsSource = listLinpeds;
-                    // UpdateTotales();
+                    listViewLineasPedido.ItemsSource = listLinpedsNegocio;
+                    UpdateTotales();
                 }
                 catch (Exception e)
                 {
@@ -122,10 +134,10 @@ namespace PresentacionWpf
         {
             try
             {
-                //textBoxBiUsuarioFichaPedidosForm.Text = pedidosNegocio.CalcularBaseImponible(listLinpeds).ToString();
-                //textBoxIvaUsuarioFichaPedidosForm.Text = pedidosNegocio.GetIva().ToString();
-                //textBoxTotalIvaUsuarioFichaPedidosForm.Text = pedidosNegocio.CalcularTotalIva(listLinpeds).ToString();
-                //textBoxImporteTotalUsuarioFichaPedidosForm.Text = pedidosNegocio.CalcularImporteTotal(listLinpeds).ToString();
+                textBoxBi.Text = pedidosNegocio.CalcularBaseImponible(listLinpeds).ToString();
+                textBoxIva.Text = pedidosNegocio.GetIva().ToString();
+                textBoxTotalIva.Text = pedidosNegocio.CalcularTotalIva(listLinpeds).ToString();
+                textBoxImporteTotal.Text = pedidosNegocio.CalcularImporteTotal(listLinpeds).ToString();
             }
             catch (Exception e)
             {
@@ -149,9 +161,50 @@ namespace PresentacionWpf
             mainWindow.SetUserControlChildren(new TableViewProductosUserControl(Modos.Seleccionar, mainWindow, this));
         }
 
+        public void AnyadirLineaArticulo(Articulo articulo)
+        {
+            if (pedido != null && articulo != null)
+            {
+                listLinpeds.Add(new Linped(pedido.PedidoID, listLinpeds.Count + 1, articulo.ArticuloID, articulo.Pvp ?? 0, 0));
+                RefreshTable();
+            }
+        }
+
         private void BtnQuitarArticulo_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("QUITAR ARTÍCULO");
+            int index = listViewLineasPedido.SelectedIndex;
+            if (index != -1)
+            {
+                List<Linped> tmpListLinped = new List<Linped>();
+                int i = 0;
+                int linea = 1;
+                foreach (Linped linped in listLinpeds)
+                {
+                    if (!index.Equals(i))
+                    {
+                        linped.Linea = linea;
+                        tmpListLinped.Add(linped);
+                        linea++;
+                    }
+                    i++;
+                }
+                listLinpeds.Clear();
+                listLinpeds = tmpListLinped;
+                RefreshTable();
+            }
+
+        }
+
+        private void TextBoxLineCantidad_LostFocus(object sender, RoutedEventArgs e)
+        {
+            List<LinpedNegocio> items = (List<LinpedNegocio>)listViewLineasPedido.ItemsSource;
+            int i = 0;
+            foreach (LinpedNegocio item in items)
+            {
+                listLinpeds[i].Cantidad = item.Cantidad;
+                i++;
+            }
+            RefreshTable();
         }
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)
@@ -169,7 +222,6 @@ namespace PresentacionWpf
             else
                 mainWindow.SetUserControlChildren(userControlParent);
         }
-
-
+        
     }
 }
