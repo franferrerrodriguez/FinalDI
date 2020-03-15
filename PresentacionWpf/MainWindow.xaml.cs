@@ -131,6 +131,10 @@ namespace PresentacionWpf
 
         }
 
+        private void BtnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Logout");
+        }
     }
 
 }

@@ -156,7 +156,8 @@ namespace CapaNegocio
         {
             try
             {
-                listArticulos = articuloAdo.FiltrarPorNombre(listArticulos, nombre);
+                if(!nombre.Equals(""))
+                    listArticulos = articuloAdo.FiltrarPorNombre(listArticulos, nombre);
                 listArticulos = articuloAdo.FiltrarPorTipo(listArticulos, tipoArticulo);
                 return listArticulos;
             }

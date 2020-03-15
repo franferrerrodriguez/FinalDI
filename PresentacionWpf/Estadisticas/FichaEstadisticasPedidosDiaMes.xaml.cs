@@ -1,11 +1,11 @@
 ﻿using Capa_entidades;
 using CapaNegocio;
 using LiveCharts;
+using LiveCharts.Helpers;
 using LiveCharts.Wpf;
 using System;
 using System.Windows;
 using System.Windows.Controls;
-using Utils;
 using static Utils.Utilities;
 
 namespace PresentacionWpf
@@ -18,6 +18,7 @@ namespace PresentacionWpf
         public Modos modo;
         private MainWindow mainWindow;
         private UserControl userControlParent;
+        private PedidosNegocio pedidosNegocio;
         private string[] meses;
         private string[] anos;
         private int mes;
@@ -31,7 +32,9 @@ namespace PresentacionWpf
             this.userControlParent = userControlParent;
             UtilsControl.SetTitulo(modo, labelTitle, "pedidos por días del mes");
             mainWindow.SetStatusException();
-            
+
+            pedidosNegocio = new PedidosNegocio();
+
             // Seteamos los meses
             meses = GetMeses();
             comboBoxPedidosMes.ItemsSource = meses;
@@ -48,25 +51,56 @@ namespace PresentacionWpf
             RefreshChart();
         }
 
+        private void ComboBoxPedidosMes_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            mes = comboBoxPedidosMes.SelectedIndex + 1;
+            RefreshChart();
+        }
+
+        private void ComboBoxPedidosAnyo_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            ano = Convert.ToInt32(comboBoxPedidosAnyo.SelectedItem.ToString());
+            RefreshChart();
+        }
+
         private void RefreshChart()
         {
-            SeriesCollection serie = new SeriesCollection();
-            g2_eje_x.MaxValue = 5;
 
-            // Creo una serie con dos COLUMNAS
-            serie.Add(new ColumnSeries
+            if(comboBoxPedidosAnyo.SelectedIndex != -1 && comboBoxPedidosAnyo.SelectedIndex != -1)
             {
-                Title = "2017",
-                Values = new ChartValues<double> { 10, 50, 39, 10, 100 }
-            });
-            serie.Add(new ColumnSeries
-            {
-                Title = "2018",
-                Values = new ChartValues<double> { 23, 44, 50, 5, 100 }
-            });
+                try
+                {
+                    SeriesCollection serie = new SeriesCollection();
+                    int numDays = DateTime.DaysInMonth(new DateTime(ano, 1, 1).Year, new DateTime(9999, mes, 1).Month);
+                    string[] days = new string[numDays];
+                    for (int i = 0; i < numDays; i++)
+                        days[i] = (i + 1).ToString();
+                    g3_eje_y.MaxValue = days.Length;
 
-            g2_eje_x.Labels = new[] { "Maria", "Juan", "Pedro", "Jairo", "Mario" };
-            graficoPedidosDiaMes.Series = serie;
+                    DateTime fechaInicio = new DateTime(ano, mes, 1);
+                    DateTime fechaFin = new DateTime(ano, mes, days.Length);
+
+                    double[] puntos = pedidosNegocio.LeerPedidosEntreFechas(fechaInicio, fechaFin);
+                    serie.Add(new RowSeries
+                    {
+                        Title = "Nº PEDIDOS:",
+                        Values = puntos.AsChartValues()
+                    });
+
+                    g3_eje_y.Labels = days;
+                    graficoPedidosDiaMes.Series = serie;
+                }
+                catch (Exception e)
+                {
+                    mainWindow.SetStatusException(e);
+                }
+            }
+
+        }
+
+        private void BtnRefrescar_Click(object sender, RoutedEventArgs e)
+        {
+            RefreshChart();
         }
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)

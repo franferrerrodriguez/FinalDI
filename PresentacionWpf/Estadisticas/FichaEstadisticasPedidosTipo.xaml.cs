@@ -3,8 +3,10 @@ using CapaNegocio;
 using LiveCharts;
 using LiveCharts.Wpf;
 using System;
+using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Media;
 using static Utils.Utilities;
 
 namespace PresentacionWpf
@@ -18,6 +20,8 @@ namespace PresentacionWpf
         private MainWindow mainWindow;
         private UserControl userControlParent;
         private ProductosNegocio productosNegocio;
+        private List<TipoArticulo> listTiposArticulos;
+        private List<Articulo> listArticulos;
 
         public FichaEstadisticasPedidosTipo(Modos modo, Window windowParent = null, UserControl userControlParent = null)
         {
@@ -32,8 +36,8 @@ namespace PresentacionWpf
 
             try
             {
-                comboBoxPedidosTipo.ItemsSource = productosNegocio.LeerTiposArticulos();
-                comboBoxPedidosTipo.SelectedIndex = 0;
+                listTiposArticulos = productosNegocio.LeerTiposArticulos();
+                listArticulos = productosNegocio.LeerArticulos();
             }
             catch (Exception e)
             {
@@ -46,30 +50,38 @@ namespace PresentacionWpf
 
         private void RefreshChart()
         {
-            SeriesCollection serie = new SeriesCollection();
-            serie.Add(new PieSeries
+            try
             {
-                Title = "Juan",
-                Values = new ChartValues<double> { 10 },
-                Stroke = System.Windows.Media.Brushes.HotPink,
-                Fill = System.Windows.Media.Brushes.HotPink
-            });
-            serie.Add(new PieSeries
-            {
-                Title = "Mario",
-                Values = new ChartValues<double> { 60 },
-                Stroke = System.Windows.Media.Brushes.Green,
-                Fill = System.Windows.Media.Brushes.Green
-            });
-            serie.Add(new PieSeries
-            {
-                Title = "Ana",
-                Values = new ChartValues<double> { 30 },
-                Stroke = System.Windows.Media.Brushes.Aquamarine,
-                Fill = System.Windows.Media.Brushes.Aquamarine
-            });
+                SeriesCollection serie = new SeriesCollection();
+                List<SolidColorBrush> colors = new List<SolidColorBrush>(new SolidColorBrush[] { Brushes.Green, Brushes.HotPink, Brushes.Aquamarine, Brushes.Red });
 
-            graficoPedidosTipo.Series = serie;
+                int i = 0;
+                foreach (TipoArticulo tipoArticulo in listTiposArticulos)
+                {
+                    if (tipoArticulo.TipoArticuloID != 0)
+                    {
+                        serie.Add(new PieSeries
+                        {
+                            Title = tipoArticulo.Descripcion + "s",
+                            Values = new ChartValues<double> { productosNegocio.LeerArticulosPorFiltro(listArticulos, "", tipoArticulo.TipoArticuloID).Count },
+                            Stroke = colors[i],
+                            Fill = colors[i]
+                        });
+                        i++;
+                    }
+                }
+
+                graficoPedidosTipo.Series = serie;
+            }
+            catch (Exception e)
+            {
+                mainWindow.SetStatusException(e);
+            }
+        }
+
+        private void BtnRefrescar_Click(object sender, RoutedEventArgs e)
+        {
+            RefreshChart();
         }
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)
@@ -79,13 +91,7 @@ namespace PresentacionWpf
 
         private void Close()
         {
-            if (userControlParent != null && typeof(TableViewUsuariosUserControl).Equals(userControlParent.GetType()))
-            {
-                TableViewUsuariosUserControl uc = (TableViewUsuariosUserControl)userControlParent;
-                mainWindow.SetUserControlChildren(userControlParent);
-            }
-            else
-                mainWindow.SetUserControlChildren(userControlParent);
+            mainWindow.SetUserControlChildren(userControlParent);
         }
 
     }

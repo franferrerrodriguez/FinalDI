@@ -64,12 +64,7 @@
                 <TextBlock Name="textBoxUsername" VerticalAlignment="Center" FontSize="18" Foreground="White"/>
                 <materialDesign:PopupBox Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Foreground="White" Cursor="Hand">
                     <StackPanel Width="150">
-                        <Button Content="1" Cursor="Hand"></Button>
-                        <Button Content="2" Cursor="Hand"></Button>
-                        <Button Content="3" Cursor="Hand"></Button>
-                        <Button Content="4" Cursor="Hand"></Button>
-                        <Separator></Separator>
-                        <Button Content="Logout" Cursor="Hand"></Button>
+                        <Button Name="btnLogout" Content="Logout" Cursor="Hand" Click="BtnLogout_Click"/>
                     </StackPanel>
                 </materialDesign:PopupBox>
             </StackPanel>

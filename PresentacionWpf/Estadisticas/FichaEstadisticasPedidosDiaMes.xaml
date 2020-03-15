@@ -12,27 +12,30 @@
         </Grid.Background>
 
         <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="800"/>
+
+        <Label Content="Filtro mes:" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="comboBoxPedidosMes" HorizontalAlignment="Left" Margin="44,103,0,0" VerticalAlignment="Top" Width="220" Background="White" SelectionChanged="ComboBoxPedidosMes_SelectionChanged"/>
+        <Label Content="Filtro año:" HorizontalAlignment="Left" Margin="280,79,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="comboBoxPedidosAnyo" HorizontalAlignment="Left" Margin="280,103,0,0" VerticalAlignment="Top" Width="220" Background="White" SelectionChanged="ComboBoxPedidosAnyo_SelectionChanged"/>
+        <Button x:Name="btnRefrescar" Content="Refrescar" HorizontalAlignment="Left" Margin="806,104,0,0" VerticalAlignment="Top" Width="100" Click="BtnRefrescar_Click"/>
         <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="922,104,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
 
-        <lvc:CartesianChart x:Name="graficoPedidosDiaMes" LegendLocation="Right" Background="#FFFDFAFA" Grid.Row="0" Margin="10,196,10,10">
-            <lvc:CartesianChart.AxisY>
-                <lvc:Axis MaxValue="100" MinValue="0" Title="Ventas">
+        <lvc:CartesianChart x:Name="graficoPedidosDiaMes" Background="#FFFDFAFA" Grid.Column="0" Margin="10,196,10,10" LegendLocation="None">
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis MaxValue="100" MinValue="0" Title="Nº de pedidos">
                     <lvc:Axis.Separator>
                         <lvc:Separator IsEnabled="False" Step="10"/>
                     </lvc:Axis.Separator>
                 </lvc:Axis>
-            </lvc:CartesianChart.AxisY>
-            <lvc:CartesianChart.AxisX>
-                <lvc:Axis x:Name="g2_eje_x" Title="Vendedores">
+            </lvc:CartesianChart.AxisX>
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis x:Name="g3_eje_y" Title="Días del mes">
                     <lvc:Axis.Separator>
                         <lvc:Separator IsEnabled="False" Step="1"/>
                     </lvc:Axis.Separator>
                 </lvc:Axis>
-            </lvc:CartesianChart.AxisX>
+            </lvc:CartesianChart.AxisY>
         </lvc:CartesianChart>
-        <Label Content="Filtro mes:" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
-        <ComboBox Name="comboBoxPedidosMes" HorizontalAlignment="Left" Margin="44,103,0,0" VerticalAlignment="Top" Width="220" Background="White"/>
-        <Label Content="Filtro año:" HorizontalAlignment="Left" Margin="280,79,0,0" VerticalAlignment="Top"/>
-        <ComboBox Name="comboBoxPedidosAnyo" HorizontalAlignment="Left" Margin="280,103,0,0" VerticalAlignment="Top" Width="220" Background="White"/>
+
     </Grid>
 </UserControl>
