@@ -1,64 +1,61 @@
-﻿using System;
+﻿using Capa_entidades;
+using CapaNegocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace PresentacionWpf
 {
-    public class Team
+    public class ArticuloModel : Articulo
     {
-        public string Name { get; set; }
-        public int Wins { get; set; }
-        public int Losses { get; set; }
+        public string Nombre { get; set; }
+
+        public ArticuloModel(Articulo articulo) : base(articulo)
+        {
+            Nombre = articulo.Nombre;
+        }
     }
 
-    public class Division
+    public class TipoArticuloModel : TipoArticulo
     {
-        public string Name { get; set; }
-        public IEnumerable<Team> Teams { get; set; }
+        public string Nombre { get; set; }
+        public List<ArticuloModel> Articulos { get; set; }
+
+        public TipoArticuloModel(TipoArticulo tipoArticulo, List<ArticuloModel> articulos) : base(tipoArticulo)
+        {
+            Nombre = tipoArticulo.Descripcion;
+            Articulos = articulos;
+        }
     }
 
-    public class League
+    public class List : List<TipoArticuloModel>
     {
-        public string Name { get; set; }
-        public IEnumerable<Division> Divisions { get; set; }
-    }
-
-    public class LeagueList : List<League>
-    {
-        public LeagueList()
+        public List()
         {
-            AddRange(GetLeague().ToList());
+            AddRange(Generate());
         }
 
-        public IEnumerable<League> GetLeague()
+        public List<TipoArticuloModel> Generate()
         {
-            return from x in Enumerable.Range(1, 2)
-                   select new League
-                   {
-                       Name = "League " + x,
-                       Divisions = GetDivisions(x).ToList()
-                   };
+            ProductosNegocio productosNegocio = new ProductosNegocio();
+
+            List<TipoArticulo> listTiposArticulos = productosNegocio.LeerTiposArticulos();
+            List<Articulo> listArticulos = productosNegocio.LeerArticulos();
+
+            List<TipoArticuloModel> listTiposArticulosModel = new List<TipoArticuloModel>();
+            List<ArticuloModel> listArticulosModel = new List<ArticuloModel>();
+            foreach (TipoArticulo tipoArticulo in listTiposArticulos)
+            {
+                foreach (Articulo articulo in listArticulos)
+                    if (tipoArticulo.TipoArticuloID == 0 || tipoArticulo.TipoArticuloID == articulo.TipoArticuloID)
+                        listArticulosModel.Add(new ArticuloModel(articulo));
+                listTiposArticulosModel.Add(new TipoArticuloModel(tipoArticulo, listArticulosModel));
+                listArticulosModel = new List<ArticuloModel>();
+            }
+
+
+            return listTiposArticulosModel;
         }
 
-        public IEnumerable<Division> GetDivisions(int x)
-        {
-            return from y in Enumerable.Range(1, 3)
-                   select new Division
-                   {
-                       Name = String.Format("Division {0}-{1}", x, y),
-                       Teams = GetTeams(x, y).ToList()
-                   };
-        }
-
-        public IEnumerable<Team> GetTeams(int x, int y)
-        {
-            return from z in Enumerable.Range(1, 4)
-                   select new Team
-                   {
-                       Name = String.Format("Team {0}-{1}-{2}", x, y, z),
-                       Wins = 25 - (x * y * z),
-                       Losses = x * y * z
-                   };
-        }
     }
 }

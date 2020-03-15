@@ -94,10 +94,13 @@ namespace Capa_entidades
             Pvp = articulo.Pvp;
             MarcaID = articulo.MarcaID;
 
-            byte[] Image = new byte[articulo.Imagen.Length];
-            for (int i = 0; i < Image.Length; i++)
-                Image[i] = articulo.Imagen[i];
-            Imagen = Image;
+            if(articulo.Imagen != null)
+            {
+                byte[] Image = new byte[articulo.Imagen.Length];
+                for (int i = 0; i < Image.Length; i++)
+                    Image[i] = articulo.Imagen[i];
+                Imagen = Image;
+            }
 
             UrlImagen = articulo.UrlImagen;
             Especificaciones = articulo.Especificaciones;

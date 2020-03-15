@@ -227,3 +227,20 @@ namespace CapaNegocio
 
     }
 }
+
+public class SubProductoDinamico
+{
+    public string NombreLabelLeft { get; set; }
+    public string ValueTextBoxLeft { get; set; }
+    public string NombreLabelRight { get; set; }
+    public string ValueTextBoxRight { get; set; }
+
+    public SubProductoDinamico(string nombreLabelLeft, string valueTextBoxLeft, string nombreLabelRight, string valueTextBoxRight)
+    {
+        NombreLabelLeft = nombreLabelLeft;
+        ValueTextBoxLeft = valueTextBoxLeft;
+        NombreLabelRight = nombreLabelRight;
+        ValueTextBoxRight = valueTextBoxRight;
+    }
+
+}
