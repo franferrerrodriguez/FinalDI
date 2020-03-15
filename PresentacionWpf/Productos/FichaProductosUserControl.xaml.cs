@@ -18,6 +18,7 @@ namespace PresentacionWpf
         private MainWindow mainWindow;
         private UserControl userControlParent;
         private TableViewUsuariosUserControl tableViewUsuariosUserControl;
+        private ProductosNegocio productosNegocio;
 
         public FichaProductosUserControl(Modos modo, Window windowParent = null, UserControl userControlParent = null)
         {
@@ -28,6 +29,15 @@ namespace PresentacionWpf
             tableViewUsuariosUserControl = (TableViewUsuariosUserControl)userControlParent;
             UtilsControl.SetTitulo(modo, labelTitle, "productos");
             mainWindow.SetStatusException();
+
+            productosNegocio = new ProductosNegocio();
+
+            TextBox tx = new TextBox();
+            tx.Margin = new Thickness(150,0,0,0);
+            tx.Width = 200;
+            tx.Height = 20;
+            tx.Text = "ok";
+            tx.HorizontalAlignment = HorizontalAlignment.Left;
 
         }
 

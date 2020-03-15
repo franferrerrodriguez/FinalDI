@@ -84,6 +84,7 @@
       <DependentUpon>FichaUsuariosUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="UtilsControl.cs" />
+    <Compile Include="Productos\ViewModels\ViewModel.cs" />
     <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

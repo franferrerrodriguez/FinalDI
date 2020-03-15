@@ -5,10 +5,22 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PresentacionWpf"
              mc:Ignorable="d" Width="1070" Height="842">
-    <Grid Name="GridUsuario">
+
+    <UserControl.Resources>
+        <local:LeagueList x:Key="Prueba"/>
+    </UserControl.Resources>
+
+    <Grid Name="GridUsuario" DataContext="{Binding Source={StaticResource Prueba}}">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
         <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="400"/>
+
+        <ComboBox Height="36" VerticalAlignment="Top" Width="120" Margin="18,23,932,0" ItemsSource="{Binding}" DisplayMemberPath="Name" IsSynchronizedWithCurrentItem="true"/>
+
+        <ListView HorizontalAlignment="Left" Height="100" Margin="169,20,0,0" VerticalAlignment="Top" Width="100" ItemsSource="{Binding Path=Divisions}" DisplayMemberPath="Name" IsSynchronizedWithCurrentItem="true"/>
+
+        <ListView HorizontalAlignment="Left" Height="100" Margin="296,23,0,0" VerticalAlignment="Top" Width="100" ItemsSource="{Binding Path=Divisions/Teams}" DisplayMemberPath="Name" IsSynchronizedWithCurrentItem="true"/>
+
     </Grid>
 </UserControl>
