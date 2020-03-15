@@ -235,6 +235,12 @@ public class SubProductoDinamico
     public string NombreLabelRight { get; set; }
     public string ValueTextBoxRight { get; set; }
 
+    public SubProductoDinamico(string nombreLabelLeft, string valueTextBoxLeft)
+    {
+        NombreLabelLeft = nombreLabelLeft;
+        ValueTextBoxLeft = valueTextBoxLeft;
+    }
+
     public SubProductoDinamico(string nombreLabelLeft, string valueTextBoxLeft, string nombreLabelRight, string valueTextBoxRight)
     {
         NombreLabelLeft = nombreLabelLeft;

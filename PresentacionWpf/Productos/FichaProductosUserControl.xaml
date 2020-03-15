@@ -45,6 +45,6 @@
         <Label Content="PVP" HorizontalAlignment="Left" Margin="849,332,0,0" VerticalAlignment="Top"/>
         <TextBox HorizontalAlignment="Left" Height="24" Margin="849,357,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="186" Text="{Binding Articulos/Pvp}" IsEnabled="False" Background="White"/>
         <StackPanel HorizontalAlignment="Left" Height="100" Margin="703,494,0,0" VerticalAlignment="Top" Width="100"/>
-        <WrapPanel Name="pruebas" HorizontalAlignment="Left" Height="451" Margin="636,381,0,0" VerticalAlignment="Top" Width="399"/>
+        <WrapPanel Name="wrapPanelSubArticulo" HorizontalAlignment="Left" Height="451" Margin="636,381,0,0" VerticalAlignment="Top" Width="399"/>
     </Grid>
 </UserControl>

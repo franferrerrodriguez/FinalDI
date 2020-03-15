@@ -21,7 +21,7 @@ namespace Capa_datos
 
             try
             {
-                HttpResponseMessage response = client.GetAsync("api/tvs").Result;
+                HttpResponseMessage response = client.GetAsync("api/tv").Result;
                 if (response.IsSuccessStatusCode)
                 {
                     aux = response.Content.ReadAsStringAsync().Result;
@@ -47,7 +47,7 @@ namespace Capa_datos
 
             try
             {
-                HttpResponseMessage response = client.GetAsync("api/tvs/" + id).Result;
+                HttpResponseMessage response = client.GetAsync("api/tv/" + id).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     aux = response.Content.ReadAsStringAsync().Result;
@@ -71,7 +71,7 @@ namespace Capa_datos
         {
             try
             {
-                HttpResponseMessage response = client.PostAsync("api/tvs",
+                HttpResponseMessage response = client.PostAsync("api/tv",
                     new StringContent(new JavaScriptSerializer().Serialize(tv), Encoding.UTF8, "application/json")).Result;
 
                 if (response.IsSuccessStatusCode)
@@ -88,7 +88,7 @@ namespace Capa_datos
         {
             try
             {
-                HttpResponseMessage response = client.PutAsync("api/tvs/" + tv.TvID,
+                HttpResponseMessage response = client.PutAsync("api/tv/" + tv.TvID,
                     new StringContent(new JavaScriptSerializer().Serialize(tv), Encoding.UTF8, "application/json")).Result;
 
                 if (response.IsSuccessStatusCode)
@@ -106,7 +106,7 @@ namespace Capa_datos
         {
             try
             {
-                HttpResponseMessage response = client.DeleteAsync("api/tvs/" + id).Result;
+                HttpResponseMessage response = client.DeleteAsync("api/tv/" + id).Result;
 
                 if (response.IsSuccessStatusCode)
                     return true;

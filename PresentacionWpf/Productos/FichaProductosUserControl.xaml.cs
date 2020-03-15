@@ -32,10 +32,7 @@ namespace PresentacionWpf
             UtilsControl.SetTitulo(modo, labelTitle, "productos");
             mainWindow.SetStatusException();
 
-            List<SubProductoDinamico> list = new List<SubProductoDinamico>();
-            list.Add(new SubProductoDinamico("Label 1", "textBox 1", "Label 1", "textBox 1"));
-            list.Add(new SubProductoDinamico("Label 2", "textBox 2", "Label 2", "textBox 2"));
-            GenerarLineaDinamica(list);
+            productosNegocio = new ProductosNegocio();
         }
 
         private void BtnCancelar_Click(object sender, RoutedEventArgs e)
@@ -46,65 +43,98 @@ namespace PresentacionWpf
         private void ListViewArticulos_PreviewMouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
         {
             Articulo articulo = (Articulo)(sender as ListView).SelectedItem;
+            
             if (articulo != null)
             {
-                // MessageBox.Show(articulo.ArticuloID);
+                try
+                {
+                    List<SubProductoDinamico> list = new List<SubProductoDinamico>();
+                    switch (articulo.TipoArticuloID)
+                    {
+                        case 1:
+                            Tv tv = productosNegocio.LeerTv(articulo.ArticuloID);
+                            list.Add(new SubProductoDinamico("Panel", tv.Panel, "Pantalla", tv.Pantalla.ToString()));
+                            list.Add(new SubProductoDinamico("Resolucion", tv.Resolucion, "HdReadyFullHd", tv.Hdreadyfullhd));
+                            list.Add(new SubProductoDinamico("Tdt", tv.Tdt ? "Sí" : "No"));
+                            break;
+                        case 2:
+                            Memoria memoria = productosNegocio.LeerMemoria(articulo.ArticuloID);
+                            list.Add(new SubProductoDinamico("Tipo", memoria.Tipo));
+                            break;
+                        case 3:
+                            Camara camara = productosNegocio.LeerCamara(articulo.ArticuloID);
+                            list.Add(new SubProductoDinamico("Resolucion", camara.Resolucion, "Sensor", camara.Sensor));
+                            list.Add(new SubProductoDinamico("Tipo", camara.Tipo, "Factor", camara.Factor));
+                            list.Add(new SubProductoDinamico("Objetivo", camara.Objetivo, "Pantalla", camara.Pantalla));
+                            list.Add(new SubProductoDinamico("Zoom", camara.Zoom));
+                            break;
+                        case 4:
+                            Objetivo objetivo = productosNegocio.LeerObjetivo(articulo.ArticuloID);
+                            list.Add(new SubProductoDinamico("Tipo", objetivo.Tipo, "Montura", objetivo.Montura));
+                            list.Add(new SubProductoDinamico("Focal", objetivo.Focal, "Apertura", objetivo.Apertura));
+                            list.Add(new SubProductoDinamico("Especiales", objetivo.Especiales));
+                            break;
+                    }
+                    GenerarLineaDinamica(list);
+                }
+                catch (Exception ex)
+                {
+                    mainWindow.SetStatusException(ex);
+                }
             }
         }
 
         public void GenerarLineaDinamica(List<SubProductoDinamico> list)
         {
-            foreach(SubProductoDinamico subProductoDinamico in list)
+            wrapPanelSubArticulo.Children.Clear();
+            foreach (SubProductoDinamico subProductoDinamico in list)
             {
                 if (subProductoDinamico != null)
                 {
-                    if (subProductoDinamico.NombreLabelLeft != null && !subProductoDinamico.NombreLabelLeft.Equals(""))
-                    {
-                        Label labelLeft = new Label();
-                        labelLeft.Margin = new Thickness(0, 8, 0, 0);
-                        labelLeft.Width = 150;
-                        labelLeft.Height = 24;
-                        labelLeft.HorizontalAlignment = HorizontalAlignment.Left;
-                        labelLeft.Content = subProductoDinamico.NombreLabelLeft;
-                        pruebas.Children.Add(labelLeft);
-                    }
+                    Label labelLeft = new Label();
+                    labelLeft.Name = "labelLeft";
+                    labelLeft.Margin = new Thickness(0, 8, 0, 0);
+                    labelLeft.Width = 150;
+                    labelLeft.Height = 24;
+                    labelLeft.HorizontalAlignment = HorizontalAlignment.Left;
+                    labelLeft.Content = subProductoDinamico.NombreLabelLeft;
+                    if (subProductoDinamico.NombreLabelLeft == null || subProductoDinamico.NombreLabelLeft.Equals(""))
+                        labelLeft.Visibility = Visibility.Hidden;
+                    wrapPanelSubArticulo.Children.Add(labelLeft);
 
-                    if (subProductoDinamico.NombreLabelRight != null && !subProductoDinamico.NombreLabelRight.Equals(""))
-                    {
-                        Label labelRight = new Label();
-                        labelRight.Margin = new Thickness(62, 8, 0, 0);
-                        labelRight.Width = 187;
-                        labelRight.Height = 24;
-                        labelRight.HorizontalAlignment = HorizontalAlignment.Left;
-                        labelRight.Content = subProductoDinamico.NombreLabelRight;
-                        pruebas.Children.Add(labelRight);
-                    }
+                    Label labelRight = new Label();
+                    labelRight.Margin = new Thickness(62, 8, 0, 0);
+                    labelRight.Width = 187;
+                    labelRight.Height = 24;
+                    labelRight.HorizontalAlignment = HorizontalAlignment.Left;
+                    labelRight.Content = subProductoDinamico.NombreLabelRight;
+                    if (subProductoDinamico.NombreLabelRight == null || subProductoDinamico.NombreLabelRight.Equals(""))
+                        labelRight.Visibility = Visibility.Hidden;
+                    wrapPanelSubArticulo.Children.Add(labelRight);
 
-                    if (subProductoDinamico.ValueTextBoxLeft != null && !subProductoDinamico.ValueTextBoxLeft.Equals(""))
-                    {
-                        TextBox textBoxLeft = new TextBox();
-                        textBoxLeft.IsEnabled = false;
-                        textBoxLeft.Margin = new Thickness(0, 0, 0, 0);
-                        textBoxLeft.Background = new SolidColorBrush(Colors.White);
-                        textBoxLeft.Width = 187;
-                        textBoxLeft.Height = 24;
-                        textBoxLeft.HorizontalAlignment = HorizontalAlignment.Left;
-                        textBoxLeft.Text = subProductoDinamico.ValueTextBoxLeft;
-                        pruebas.Children.Add(textBoxLeft);
-                    }
+                    TextBox textBoxLeft = new TextBox();
+                    textBoxLeft.IsEnabled = false;
+                    textBoxLeft.Margin = new Thickness(0, 0, 0, 0);
+                    textBoxLeft.Background = new SolidColorBrush(Colors.White);
+                    textBoxLeft.Width = 187;
+                    textBoxLeft.Height = 24;
+                    textBoxLeft.HorizontalAlignment = HorizontalAlignment.Left;
+                    textBoxLeft.Text = subProductoDinamico.ValueTextBoxLeft;
+                    if (subProductoDinamico.NombreLabelLeft == null || subProductoDinamico.NombreLabelLeft.Equals(""))
+                        textBoxLeft.Visibility = Visibility.Hidden;
+                    wrapPanelSubArticulo.Children.Add(textBoxLeft);
 
-                    if (subProductoDinamico.ValueTextBoxRight != null && !subProductoDinamico.ValueTextBoxRight.Equals(""))
-                    {
-                        TextBox textBoxRight = new TextBox();
-                        textBoxRight.IsEnabled = false;
-                        textBoxRight.Margin = new Thickness(25, 0, 0, 0);
-                        textBoxRight.Background = new SolidColorBrush(Colors.White);
-                        textBoxRight.Width = 187;
-                        textBoxRight.Height = 24;
-                        textBoxRight.HorizontalAlignment = HorizontalAlignment.Left;
-                        textBoxRight.Text = subProductoDinamico.ValueTextBoxRight;
-                        pruebas.Children.Add(textBoxRight);
-                    }
+                    TextBox textBoxRight = new TextBox();
+                    textBoxRight.IsEnabled = false;
+                    textBoxRight.Margin = new Thickness(25, 0, 0, 0);
+                    textBoxRight.Background = new SolidColorBrush(Colors.White);
+                    textBoxRight.Width = 187;
+                    textBoxRight.Height = 24;
+                    textBoxRight.HorizontalAlignment = HorizontalAlignment.Left;
+                    textBoxRight.Text = subProductoDinamico.ValueTextBoxRight;
+                    if (subProductoDinamico.NombreLabelRight == null || subProductoDinamico.NombreLabelRight.Equals(""))
+                        textBoxRight.Visibility = Visibility.Hidden;
+                    wrapPanelSubArticulo.Children.Add(textBoxRight);
 
                 }
             }
