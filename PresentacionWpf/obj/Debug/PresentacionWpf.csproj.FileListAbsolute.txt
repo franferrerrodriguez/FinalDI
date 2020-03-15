@@ -144,3 +144,7 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Produc
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\TableViewProductosUserControl.g.cs
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Productos\FichaProductosUserControl.baml
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosTipo.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosDiaMes.g.cs
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosTipo.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosDiaMes.baml

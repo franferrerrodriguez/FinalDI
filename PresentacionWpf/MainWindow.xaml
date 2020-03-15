@@ -173,7 +173,19 @@
                     <ListViewItem x:Name="Estadisticas" Foreground="#FF0091C0" FontWeight="Bold">
                         <StackPanel Orientation="Horizontal">
                             <materialDesign:PackIcon Kind="BarChart" Margin="0 0 0 0" Width="20" Height="20" VerticalAlignment="Center"/>
-                            <TextBlock Text="Estadísticas" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                            <TextBlock Text="Estadisticas" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem x:Name="Estadisticas_PedidosDiaMes" Cursor="Hand" Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ChartBar" Margin="10 0 0 0" Width="20" Height="20" VerticalAlignment="Center"/>
+                            <TextBlock Text="Pedidos por día/mes" VerticalAlignment="Center" Margin="20 0 0 0"/>
+                        </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem x:Name="Estadisticas_PedidosTipo" Cursor="Hand" Foreground="Black">
+                        <StackPanel Orientation="Horizontal">
+                            <materialDesign:PackIcon Kind="ChartPie" Margin="10 0 0 0" Width="20" Height="20" VerticalAlignment="Center"/>
+                            <TextBlock Text="Pedidos por tipo" VerticalAlignment="Center" Margin="20 0 0 0"/>
                         </StackPanel>
                     </ListViewItem>
 

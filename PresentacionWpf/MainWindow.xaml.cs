@@ -80,8 +80,11 @@ namespace PresentacionWpf
                 case "Pedidos_Eliminar":
                     SetUserControlChildren(new TableViewPedidosUserControl(Modos.Eliminar, this));
                     break;
-                case "Estadisticas":
-                    MessageBox.Show("Estadisticas");
+                case "Estadisticas_PedidosDiaMes":
+                    SetUserControlChildren(new FichaEstadisticasPedidosDiaMes(Modos.Consultar, this));
+                    break;
+                case "Estadisticas_PedidosTipo":
+                    SetUserControlChildren(new FichaEstadisticasPedidosTipo(Modos.Consultar, this));
                     break;
                 case "Informes_Facturas":
                     MessageBox.Show("Informes_Facturas");

@@ -65,6 +65,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Estadisticas\FichaEstadisticasPedidosTipo.xaml.cs">
+      <DependentUpon>FichaEstadisticasPedidosTipo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Estadisticas\FichaEstadisticasPedidosDiaMes.xaml.cs">
+      <DependentUpon>FichaEstadisticasPedidosDiaMes.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pedidos\FichaPedidosUserControl.xaml.cs">
       <DependentUpon>FichaPedidosUserControl.xaml</DependentUpon>
     </Compile>
@@ -85,6 +91,14 @@
     </Compile>
     <Compile Include="UtilsControl.cs" />
     <Compile Include="Productos\ViewModels\ViewModel.cs" />
+    <Page Include="Estadisticas\FichaEstadisticasPedidosTipo.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Estadisticas\FichaEstadisticasPedidosDiaMes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="LoginWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -184,7 +198,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Estadisticas\" />
     <Folder Include="Informes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
