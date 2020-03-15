@@ -148,3 +148,9 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadi
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosDiaMes.g.cs
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosTipo.baml
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Estadisticas\FichaEstadisticasPedidosDiaMes.baml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.Wpf.dll
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.xml
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.Wpf.pdb
+D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.Wpf.xml

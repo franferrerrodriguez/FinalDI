@@ -4,12 +4,18 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PresentacionWpf"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              mc:Ignorable="d" Width="1070" Height="842">
     <Grid Name="GridUsuario">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
+        
         <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="800"/>
-        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="921,686,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="922,104,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
+
+        <lvc:PieChart x:Name="graficoPedidosTipo" LegendLocation="Right" Background="#FFFDFAFA" Margin="10,196,10,10"/>
+        <Label Content="Filtro tipo:" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="comboBoxPedidosTipo" HorizontalAlignment="Left" Margin="44,103,0,0" VerticalAlignment="Top" Width="220" Background="White" SelectedValuePath="TipoArticuloID" DisplayMemberPath="Descripcion"/>
     </Grid>
 </UserControl>

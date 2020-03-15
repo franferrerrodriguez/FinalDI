@@ -4,13 +4,35 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PresentacionWpf"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              mc:Ignorable="d" Width="1070" Height="842">
     <Grid Name="GridUsuario">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
+
         <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="800"/>
-        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="921,686,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
-        
+        <Button Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="922,104,0,0" VerticalAlignment="Top" Width="100" Click="BtnCancelar_Click"/>
+
+        <lvc:CartesianChart x:Name="graficoPedidosDiaMes" LegendLocation="Right" Background="#FFFDFAFA" Grid.Row="0" Margin="10,196,10,10">
+            <lvc:CartesianChart.AxisY>
+                <lvc:Axis MaxValue="100" MinValue="0" Title="Ventas">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator IsEnabled="False" Step="10"/>
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisY>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis x:Name="g2_eje_x" Title="Vendedores">
+                    <lvc:Axis.Separator>
+                        <lvc:Separator IsEnabled="False" Step="1"/>
+                    </lvc:Axis.Separator>
+                </lvc:Axis>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <Label Content="Filtro mes:" HorizontalAlignment="Left" Margin="44,79,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="comboBoxPedidosMes" HorizontalAlignment="Left" Margin="44,103,0,0" VerticalAlignment="Top" Width="220" Background="White"/>
+        <Label Content="Filtro año:" HorizontalAlignment="Left" Margin="280,79,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="comboBoxPedidosAnyo" HorizontalAlignment="Left" Margin="280,103,0,0" VerticalAlignment="Top" Width="220" Background="White"/>
     </Grid>
 </UserControl>
