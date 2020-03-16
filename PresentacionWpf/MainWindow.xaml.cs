@@ -87,7 +87,7 @@ namespace PresentacionWpf
                     SetUserControlChildren(new FichaEstadisticasPedidosTipo(Modos.Consultar, this));
                     break;
                 case "Informes_Facturas":
-                    MessageBox.Show("Informes_Facturas");
+                    SetUserControlChildren(new FichaFacturas(Modos.Consultar, this));
                     break;
             }
             if(uc != null)
