@@ -1,0 +1,16 @@
+﻿<FixedDocument
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <FixedDocument.Resources>
+        <PageContent x:Key="page2">
+            <FixedPage Width="793.76" Height="1122.56">
+                <TextBlock Margin="50" Text="Page 2"/>
+            </FixedPage>
+        </PageContent>
+        <PageContent x:Key="page1">
+            <FixedPage Width="793.76" Height="1122.56">
+                <TextBlock Margin="50" Text="Page 1"/>
+            </FixedPage>
+        </PageContent>
+    </FixedDocument.Resources>
+</FixedDocument>
