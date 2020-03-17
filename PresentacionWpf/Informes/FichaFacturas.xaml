@@ -10,10 +10,9 @@
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
         <Label Name="labelTitle" HorizontalAlignment="Left" Margin="44,10,0,0" VerticalAlignment="Top" FontSize="36" Width="400"/>
-        <DocumentViewer x:Name="_viewer" Margin="0,65,0,63"/>
+        <DocumentViewer x:Name="_viewer" Margin="0,65,0,10"/>
         <Grid x:Name="Botonera">
             <Button Name="PrintButton" Content="¡Imprimir!" Click="Print_Click"   RenderTransformOrigin="1.707,1.824" Height="Auto" Margin="797,10,173,800"/>
-            <Button Name="PrintButton2" Content="Documento leído" RenderTransformOrigin="1.707,1.824" Click="PrintButton2_Click" Height="Auto" Margin="678,12,292,800"/>
             <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="915,10,0,0" VerticalAlignment="Top" Width="100"/>
         </Grid>
     </Grid>

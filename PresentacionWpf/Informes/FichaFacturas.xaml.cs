@@ -223,20 +223,11 @@ namespace PresentacionWpf
             }
         }
 
-        /// <summary>
-        /// Impresión leyendo el documento creado en xaml.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void PrintButton2_Click(object sender, RoutedEventArgs e)
-        {
-            System.Windows.Documents.FixedDocument doc = Application.LoadComponent(new Uri("/FixedDocument.xaml", UriKind.Relative)) as System.Windows.Documents.FixedDocument;
-            doc.AddPages();
-            Document = doc;
-        }
     }
+
     public static class FixedDocumentExtended
     {
+
         public static void AddPages(this System.Windows.Documents.FixedDocument fixedDocument)
         {
             var enumerator = fixedDocument.Resources.GetEnumerator();
@@ -250,5 +241,5 @@ namespace PresentacionWpf
             }
         }
     }
-}
 
+}

@@ -307,11 +307,11 @@ namespace CapaNegocio
         ///  <param name="localidadId">(string) localidadId</param>
         /// <returns>Localidad</returns>
         /// <author>Francisco José Ferrer Rodríguez</author>
-        public Localidad LeerLocalidad(string localidadId)
+        public Localidad LeerLocalidad(string provinciaId, string localidadId)
         {
             try
             {
-                return localidadAdo.LeerLocalidad(localidadId);
+                return localidadAdo.LeerLocalidad(provinciaId, localidadId);
             }
             catch (Exception e)
             {

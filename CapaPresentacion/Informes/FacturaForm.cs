@@ -82,21 +82,25 @@ namespace CapaPresentacion
                 f1.Nombre = "FACTURA";
                 f1.NombreEmpresa = usuarioEmpresa.Nombre;
                 f1.DireccionEmpresa = !String.IsNullOrEmpty(usuarioEmpresa.Calle) ? usuarioEmpresa.Calle : usuarioEmpresa.Calle2;
-                Localidad localidadEmpresa = usuariosNegocio.LeerLocalidad(usuarioEmpresa.PuebloID);
-                f1.LocalidadEmpresa = localidadEmpresa.Nombre;
-                f1.CpEmpresa = usuarioEmpresa.Codpos;
+
                 Provincia provinciaEmpresa = usuariosNegocio.LeerProvincia(usuarioEmpresa.ProvinciaID);
                 f1.ProvinciaEmpresa = provinciaEmpresa.Nombre;
                 f1.DocumentoEmpresa = usuarioEmpresa.Dni;
 
+                Localidad localidadEmpresa = usuariosNegocio.LeerLocalidad(usuarioEmpresa.ProvinciaID, usuarioEmpresa.PuebloID);
+                f1.LocalidadEmpresa = localidadEmpresa.Nombre;
+                f1.CpEmpresa = usuarioEmpresa.Codpos;
+
                 f1.NombreCliente = usuarioCliente.Nombre;
                 f1.DireccionCliente = !String.IsNullOrEmpty(usuarioCliente.Calle) ? usuarioCliente.Calle : usuarioCliente.Calle2;
-                Localidad localidadCliente = usuariosNegocio.LeerLocalidad(usuarioCliente.PuebloID);
-                f1.LocalidadCliente = localidadCliente.Nombre;
-                f1.CpCliente = usuarioCliente.Codpos;
+
                 Provincia provinciaCliente = usuariosNegocio.LeerProvincia(usuarioCliente.ProvinciaID);
                 f1.ProvinciaCliente = provinciaCliente.Nombre;
                 f1.DocumentoCliente = usuarioCliente.Dni;
+
+                Localidad localidadCliente = usuariosNegocio.LeerLocalidad(usuarioCliente.ProvinciaID, usuarioCliente.PuebloID);
+                f1.LocalidadCliente = localidadCliente.Nombre;
+                f1.CpCliente = usuarioCliente.Codpos;
 
                 facturas.Add(f1);
 

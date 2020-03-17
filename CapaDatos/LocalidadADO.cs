@@ -40,14 +40,14 @@ namespace Capa_datos
 
             return listaLocalidades;
         }
-        public Localidad LeerLocalidad(string id)
+        public Localidad LeerLocalidad(string provinciaID, string localidadID)
         {
             Localidad localidad = new Localidad();
             string aux;
 
             try
             {
-                HttpResponseMessage response = client.GetAsync("api/localidades/" + id).Result;
+                HttpResponseMessage response = client.GetAsync("api/localidades/" + provinciaID + "/" + localidadID).Result;
                 if (response.IsSuccessStatusCode)
                 {
                     aux = response.Content.ReadAsStringAsync().Result;

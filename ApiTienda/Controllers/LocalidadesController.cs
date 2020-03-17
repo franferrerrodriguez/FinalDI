@@ -28,11 +28,11 @@ namespace API_Tienda.Controllers
             return await _context.Localidad.ToListAsync();
         }
 
-        // GET: api/Localidades/5
-        [HttpGet("{id}")]
-        public async Task<ActionResult<Localidad>> GetLocalidad(string id)
+        // GET: api/Localidades/5/10
+        [HttpGet("{provinciaID}/{localidadID}")]
+        public async Task<ActionResult<Localidad>> GetLocalidad(string provinciaID, string localidadID)
         {
-            var localidad = await _context.Localidad.FindAsync(id);
+            var localidad = await _context.Localidad.FindAsync(provinciaID, localidadID);
 
             if (localidad == null)
             {
@@ -42,11 +42,11 @@ namespace API_Tienda.Controllers
             return localidad;
         }
 
-        // PUT: api/Localidades/5
-        [HttpPut("{id}")]
-        public async Task<IActionResult> PutLocalidad(string id, Localidad localidad)
+        // PUT: api/Localidades/5/10
+        [HttpPut("{provinciaID}/{localidadID}")]
+        public async Task<IActionResult> PutLocalidad(string provinciaID, string localidadID, Localidad localidad)
         {
-            if (id != localidad.LocalidadID)
+            if (provinciaID != localidad.ProvinciaID || localidadID != localidad.LocalidadID)
             {
                 return BadRequest();
             }
@@ -59,7 +59,7 @@ namespace API_Tienda.Controllers
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!LocalidadExists(id))
+                if (!LocalidadExists(provinciaID, localidadID))
                 {
                     return NotFound();
                 }
@@ -72,6 +72,8 @@ namespace API_Tienda.Controllers
             return NoContent();
         }
 
+        // GET FUNCIONA, FALTA EL RESTO POST ETC
+
         // POST: api/Localidades
         [HttpPost]
         public async Task<ActionResult<Localidad>> PostLocalidad(Localidad localidad)
@@ -82,11 +84,11 @@ namespace API_Tienda.Controllers
             return CreatedAtAction("GetLocalidad", new { id = localidad.LocalidadID }, localidad);
         }
 
-        // DELETE: api/Localidades/5
-        [HttpDelete("{id}")]
-        public async Task<ActionResult<Localidad>> DeleteLocalidad(string id)
+        // DELETE: api/Localidades/5/10
+        [HttpDelete("{provinciaID}/{localidadID}")]
+        public async Task<ActionResult<Localidad>> DeleteLocalidad(string provinciaID, string localidadID)
         {
-            var localidad = await _context.Localidad.FindAsync(id);
+            var localidad = await _context.Localidad.FindAsync(provinciaID, localidadID);
             if (localidad == null)
             {
                 return NotFound();
@@ -98,9 +100,9 @@ namespace API_Tienda.Controllers
             return localidad;
         }
 
-        private bool LocalidadExists(string id)
+        private bool LocalidadExists(string provinciaID, string localidadID)
         {
-            return _context.Localidad.Any(e => e.LocalidadID == id);
+            return _context.Localidad.Any(e => e.ProvinciaID == provinciaID && e.LocalidadID == localidadID);
         }
     }
 }

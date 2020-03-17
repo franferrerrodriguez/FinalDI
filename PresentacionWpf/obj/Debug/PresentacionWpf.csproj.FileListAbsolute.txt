@@ -156,4 +156,3 @@ D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCh
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\bin\Debug\LiveCharts.Wpf.xml
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Informes\FichaFacturas.g.cs
 D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Informes\FichaFacturas.baml
-D:\Usuarios\Francisco J. Ferrer\Desktop\FinalDI\PresentacionWpf\obj\Debug\Informes\FixedDocument.baml
