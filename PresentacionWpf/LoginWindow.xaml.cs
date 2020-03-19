@@ -1,24 +1,10 @@
 ﻿using Capa_entidades;
 using CapaNegocio;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace PresentacionWpf
 {
-    /// <summary>
-    /// Lógica de interacción para LoginWindow.xaml
-    /// </summary>
     public partial class LoginWindow : Window
     {
         private MainWindow mainWindow;
@@ -32,7 +18,6 @@ namespace PresentacionWpf
             InitializeComponent();
             loginNegocio = new LoginNegocio();
             numIntentos = 0;
-            Login();
         }
 
         private void Button_Close(object sender, RoutedEventArgs e)
@@ -53,7 +38,7 @@ namespace PresentacionWpf
 
         private void Login()
         {
-            textBoxLoginUser.Text = "alicia";
+            textBoxLoginUser.Text = "aam@colegas.com";
             textBoxLoginPassword.Text = "1234";
             Usuario usuario = loginNegocio.ComprobarLogin(textBoxLoginUser.Text, textBoxLoginPassword.Text);
             if (usuario != null)
@@ -72,7 +57,7 @@ namespace PresentacionWpf
                     Environment.Exit(0);
                 }
                 Reset();
-                MessageBox.Show("Error en la combinación de login / password. Por favor, inténtelo de nuevo.");
+                MessageBox.Show("Error en la combinación de email / contraseña. Por favor, inténtelo de nuevo.");
             }
         }
 
@@ -81,15 +66,10 @@ namespace PresentacionWpf
             return usuarioLogado;
         }
 
-        private void Reset()
+        public void Reset()
         {
-            textBoxLoginUser.Text = "Usuario";
+            textBoxLoginUser.Text = "Email";
             textBoxLoginPassword.Text = "Contraseña";
-        }
-
-        private void TextBlock_ForgotPassword(object sender, MouseButtonEventArgs e)
-        {
-            MessageBox.Show("Forgot password");
         }
         
     }

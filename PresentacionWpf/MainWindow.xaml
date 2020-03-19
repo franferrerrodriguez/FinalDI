@@ -7,7 +7,7 @@
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Closing="Window_Closing"
-        Title="MainWindow" Height="960" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="TiendaDAM" Height="960" Width="1280" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
 
     <Window.Resources>
         <!-- Abrir Menú -->
@@ -59,7 +59,7 @@
             <Label Name="LabelStatus" Content="LabelStatus" HorizontalAlignment="Left" Margin="10,3,0,0" VerticalAlignment="Top" Width="1050" FontWeight="Bold"/>
         </Grid>
         <Grid Height="50" VerticalAlignment="Top" Background="#FF0091C0" Grid.ColumnSpan="2" Margin="0,0,-0.333,0">
-            <TextBlock Text="Design with WPF" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
+            <TextBlock Text="Tienda DAM" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="22" Foreground="White"/>
             <StackPanel VerticalAlignment="Center" Orientation="Horizontal" HorizontalAlignment="Right">
                 <TextBlock Name="textBoxUsername" VerticalAlignment="Center" FontSize="18" Foreground="White"/>
                 <materialDesign:PopupBox Margin="10" PlacementMode="BottomAndAlignRightEdges" StaysOpen="False" Foreground="White" Cursor="Hand">

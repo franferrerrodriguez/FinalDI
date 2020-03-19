@@ -42,12 +42,13 @@ namespace CapaNegocio
         ///  <param name="nombre">(String) nombre</param>
         /// <returns>void</returns>
         /// <author>Francisco José Ferrer Rodríguez</author>
-        public Usuario ComprobarLogin(String nombre, String password)
+        public Usuario ComprobarLogin(string email, string password)
         {
             try
             {
-                return usuarioAdo.ExisteUsuarioByNombrePassword(nombre, password);
-            } catch(Exception e)
+                return usuarioAdo.ExisteUsuarioByEmailPassword(email, password);
+            }
+            catch (Exception e)
             {
                 throw e;
             }

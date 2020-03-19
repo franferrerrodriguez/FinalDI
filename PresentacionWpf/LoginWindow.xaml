@@ -22,7 +22,7 @@
                 <ImageBrush ImageSource="Resources/window_miminize.png"/>
             </Button.Background>
         </Button>
-        <TextBox x:Name="textBoxLoginUser" HorizontalAlignment="Left" Height="27" Margin="325,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394" FontSize="16" Background="Transparent" BorderBrush="{x:Null}" Foreground="#FFBABABA" Text="Usuario"/>
+        <TextBox x:Name="textBoxLoginUser" HorizontalAlignment="Left" Height="27" Margin="325,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394" FontSize="16" Background="Transparent" BorderBrush="{x:Null}" Foreground="#FFBABABA" Text="Email"/>
         <StackPanel HorizontalAlignment="Left" Height="2" Margin="325,126,0,0" VerticalAlignment="Top" Width="394" Background="#FFBABABA"/>
         <TextBox x:Name="textBoxLoginPassword" HorizontalAlignment="Left" Height="27" Margin="325,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394" FontSize="16" Background="Transparent" BorderBrush="{x:Null}" Foreground="#FFBABABA" Text="Contraseña"/>
         <StackPanel HorizontalAlignment="Left" Height="2" Margin="325,196,0,0" VerticalAlignment="Top" Width="394" Background="#FFBABABA"/>

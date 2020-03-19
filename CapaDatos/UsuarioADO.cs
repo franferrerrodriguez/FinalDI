@@ -207,6 +207,25 @@ namespace Capa_datos
             return null;
         }
 
+        /// <summary>
+        /// Para comprobar si las credenciales introducidas coinciden con algún usuario de la BD
+        /// </summary>
+        /// <param name="email"></param>
+        /// <param name="password"></param>
+        /// <returns></returns>
+        /// <example>
+        /// <code>
+        /// Usuario u = instanceUsuario.ExisteUsuarioByEmailPassword("fran@fran.com", "ferrer")
+        /// </code>
+        /// </example>
+        public Usuario ExisteUsuarioByEmailPassword(string email, string password)
+        {
+            foreach (Usuario u in LeerUsuarios())
+                if (u.Email.ToUpper().Equals(email.ToUpper()) && u.Password.Equals(Utilities.CalculateMD5Hash(password)))
+                    return u;
+            return null;
+        }
+
 
         /// <summary>
         /// Filtra una lista de usuarios a partir del campo Nombre
