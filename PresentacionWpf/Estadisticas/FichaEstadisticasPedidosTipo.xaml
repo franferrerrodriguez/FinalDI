@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:PresentacionWpf"
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              mc:Ignorable="d" Width="1070" Height="842">
-    <Grid Name="GridUsuario">
+    <Grid Name="GridFichaEstadisticasPedidosTipo">
 
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>

@@ -123,13 +123,14 @@ namespace PresentacionWpf
                     }
                 }
             }
-            else if (modo.Equals(Modos.Consultar))
+            else if (modo.Equals(Modos.Seleccionar))
             {
-                /*if (formParent.GetType().Equals(typeof(FacturaForm)))
+                if (typeof(FichaFacturas).Equals(userControlParent.GetType()))
                 {
-                    FacturaForm f = new FacturaForm(pedido);
-                    f.Show();
-                }*/
+                    FichaFacturas uc = (FichaFacturas)userControlParent;
+                    uc.SetPedido(pedido);
+                    mainWindow.SetUserControlChildren(uc);
+                }
             }
         }
 
@@ -152,7 +153,13 @@ namespace PresentacionWpf
 
         private void Close()
         {
-            mainWindow.SetUserControlChildren(userControlParent);
+            if (userControlParent != null && typeof(FichaFacturas).Equals(userControlParent.GetType()))
+            {
+                FichaFacturas uc = (FichaFacturas)userControlParent;
+                mainWindow.SetUserControlChildren(userControlParent);
+            }
+            else
+                mainWindow.SetUserControlChildren(userControlParent);
         }
 
     }

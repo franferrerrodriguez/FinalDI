@@ -7,10 +7,10 @@
              mc:Ignorable="d" Width="1070" Height="842">
 
     <UserControl.Resources>
-        <local:List x:Key="Prueba"/>
+        <local:List x:Key="Productos"/>
     </UserControl.Resources>
 
-    <Grid Name="GridUsuario" DataContext="{Binding Source={StaticResource Prueba}}">
+    <Grid Name="GridFichaProductos" DataContext="{Binding Source={StaticResource Productos}}">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>

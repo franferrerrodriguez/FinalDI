@@ -53,7 +53,7 @@ namespace PresentacionWpf
         public void Cargar(Usuario usuario)
         {
             this.usuario = usuario;
-            GridUsuario.DataContext = new Usuario {
+            GridFichaUsuarios.DataContext = new Usuario {
                 Nombre = usuario.Nombre,
                 Apellidos = usuario.Apellidos,
                 Email = usuario.Email,

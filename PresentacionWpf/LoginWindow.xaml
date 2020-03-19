@@ -27,7 +27,5 @@
         <TextBox x:Name="textBoxLoginPassword" HorizontalAlignment="Left" Height="27" Margin="325,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="394" FontSize="16" Background="Transparent" BorderBrush="{x:Null}" Foreground="#FFBABABA" Text="Contraseña"/>
         <StackPanel HorizontalAlignment="Left" Height="2" Margin="325,196,0,0" VerticalAlignment="Top" Width="394" Background="#FFBABABA"/>
         <Button Content="ACCEDER" Height="37" VerticalAlignment="Top" Margin="325,267,80.667,0" BorderBrush="#FF057505" Cursor="Hand" Background="Transparent" Foreground="#FFBABABA" Click="Button_Login"/>
-        <TextBlock HorizontalAlignment="Left" Margin="468,309,0,0" TextWrapping="Wrap" Text="¿Ha olvidado contraseña?" VerticalAlignment="Top" FontSize="10" Foreground="#FFBABABA" TextDecorations="Underline" Cursor="Hand" MouseDown="TextBlock_ForgotPassword"/>
-
     </Grid>
 </Window>

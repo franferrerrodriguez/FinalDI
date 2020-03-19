@@ -12,9 +12,6 @@ using static Utils.Utilities;
 
 namespace PresentacionWpf
 {
-    /// <summary>
-    /// Lógica de interacción para MainWindow.xaml
-    /// </summary>
     public partial class FichaFacturas : UserControl
     {
         public Modos modo;
@@ -44,13 +41,32 @@ namespace PresentacionWpf
             pedidosNegocio = new PedidosNegocio();
             productosNegocio = new ProductosNegocio();
             usuariosNegocio = new UsuariosNegocio();
+        }
 
-            // Que se seleccione de la tabla
-            pedido = pedidosNegocio.LeerPedido(1L);
+        public void SetPedido(Pedido pedido)
+        {
+            this.pedido = pedido;
+            CargarPedido();
+        }
 
-            usuarioEmpresa = LoginWindow.GetUsuarioLogado();
-            usuarioCliente = usuariosNegocio.LeerUsuario(pedido.UsuarioID);
-            listLinpeds = pedidosNegocio.LeerLinped(pedido.PedidoID);
+        private void CargarPedido()
+        {
+            if (pedido != null)
+            {
+                usuarioEmpresa = LoginWindow.GetUsuarioLogado();
+                usuarioCliente = usuariosNegocio.LeerUsuario(pedido.UsuarioID);
+                listLinpeds = pedidosNegocio.LeerLinped(pedido.PedidoID);
+
+                doc = new FixedDocument();
+                PrintDialog pd = new PrintDialog();
+                CrearDocumento(new Size(pd.PrintableAreaWidth, pd.PrintableAreaHeight));
+                Document = doc;
+                pd = null;
+
+                DocumentViewer dv1 = LogicalTreeHelper.FindLogicalNode(this, "_viewer") as DocumentViewer;
+                ContentControl cc = dv1.Template.FindName("PART_FindToolBarHost", dv1) as ContentControl;
+                cc.Visibility = Visibility.Collapsed;
+            }
         }
 
         public IDocumentPaginatorSource Document
@@ -117,7 +133,6 @@ namespace PresentacionWpf
                 n++;
             }
 
-            // Add the Grid as the Content of the Parent Window Object
             fp.Children.Add(myGrid);
         }
 
@@ -174,7 +189,7 @@ namespace PresentacionWpf
             {
                 RowDefinition rowDef = new RowDefinition();
                 myGrid.RowDefinitions.Add(rowDef);
-                // Add the second text cell to the Grid
+
                 TextBlock txt1 = new TextBlock();
                 txt1.Text = header.Key;
                 txt1.FontSize = 12;
@@ -183,7 +198,6 @@ namespace PresentacionWpf
                 Grid.SetColumn(txt1, 1);
                 myGrid.Children.Add(txt1);
                 
-                // Add the second text cell to the Grid
                 TextBlock txt2 = new TextBlock();
                 txt2.Text = header.Value;
                 txt2.FontSize = 12;
@@ -195,7 +209,6 @@ namespace PresentacionWpf
                 n++;
             }
 
-            // Add the Grid as the Content of the Parent Window Object
             fp.Children.Add(myGrid);
         }
 
@@ -304,7 +317,6 @@ namespace PresentacionWpf
                 n++;
             }
 
-            // Add the Grid as the Content of the Parent Window Object
             fp.Children.Add(myGrid);
         }
 
@@ -396,14 +408,9 @@ namespace PresentacionWpf
                 n++;
             }
 
-            // Add the Grid as the Content of the Parent Window Object
             fp.Children.Add(myGrid);
         }
 
-        /// <summary>
-        /// Crea un documento de manera dinámica mediante objetos.
-        /// </summary>
-        /// <param name="tam"></param>
         private void CrearDocumento(Size tam)
         {
             List<List<Linped>> tmpList1 = new List<List<Linped>>();
@@ -441,7 +448,6 @@ namespace PresentacionWpf
 
                 Pie(fp, new TotalesFactura(pedidosNegocio.CalcularBaseImponible(listLinpeds), pedidosNegocio.GetIva(), pedidosNegocio.CalcularTotalIva(listLinpeds), pedidosNegocio.CalcularImporteTotal(listLinpeds)));
 
-                //Añadimos la página al documento
                 PageContent pc = new PageContent();
                 ((IAddChild)pc).AddChild(fp);
                 doc.Pages.Add(pc);
@@ -449,35 +455,31 @@ namespace PresentacionWpf
 
         }
 
-        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        private void BtnImprimir_Click(object sender, RoutedEventArgs e)
         {
-            doc = new FixedDocument();
-            PrintDialog pd = new PrintDialog();
-            CrearDocumento(new Size(pd.PrintableAreaWidth, pd.PrintableAreaHeight));
-            // asignamos el documento al viewer
-            Document = doc;
-            pd = null;
-
-            // Eliminamos la ventana de búsqueda
-            DocumentViewer dv1 = LogicalTreeHelper.FindLogicalNode(this, "_viewer") as DocumentViewer;
-            ContentControl cc = dv1.Template.FindName("PART_FindToolBarHost", dv1) as ContentControl;
-            cc.Visibility = Visibility.Collapsed;
+            if(pedido == null)
+                MessageBox.Show("Debes buscar un pedido antes de poder imprimir.");
+            else
+            {
+                PrintDialog pd = new PrintDialog();
+                if (pd.ShowDialog() == true)
+                    pd.PrintDocument(doc.DocumentPaginator, "Mi documento");
+            }
         }
 
-        /// <summary>
-        /// Desde esta función imprimimos sin usar el DocumentViewer. Usamos el cuadro de dialogo para imprimir
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Print_Click(object sender, RoutedEventArgs e)
+        private void BtnBuscarFactura_Click(object sender, RoutedEventArgs e)
         {
-            // Seleccionamos una impresora y obtenemos su configuración
-            PrintDialog pd = new PrintDialog();
-            if (pd.ShowDialog() == true)
-            {
-                // el documento se crea al cargar el formulario.
-                pd.PrintDocument(doc.DocumentPaginator, "Mi documento");
-            }
+            mainWindow.SetUserControlChildren(new TableViewPedidosUserControl(Modos.Seleccionar, mainWindow, this));
+        }
+
+        private void BtnCancelar_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
+        }
+
+        private void Close()
+        {
+            mainWindow.SetUserControlChildren(userControlParent);
         }
 
     }

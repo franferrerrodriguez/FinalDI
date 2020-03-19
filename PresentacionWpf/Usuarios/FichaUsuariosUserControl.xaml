@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PresentacionWpf"
              mc:Ignorable="d" Width="1070" Height="842">
-    <Grid Name="GridUsuario">
+    <Grid Name="GridFichaUsuarios">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>

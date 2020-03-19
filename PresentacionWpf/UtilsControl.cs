@@ -15,6 +15,9 @@ namespace PresentacionWpf
         {
             switch (modo)
             {
+                case Utilities.Modos.Seleccionar:
+                    label.Content = "Seleccionar " + section;
+                    break;
                 case Utilities.Modos.Consultar:
                     label.Content = "Consultar " + section;
                     break;

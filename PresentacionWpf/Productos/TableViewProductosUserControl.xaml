@@ -4,7 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" Width="1070" Height="842">
-    <Grid Name="GridProductos">
+    <Grid Name="GridTableViewProductos">
         <Grid.Background>
             <SolidColorBrush Color="#FFF0F0F0"/>
         </Grid.Background>
