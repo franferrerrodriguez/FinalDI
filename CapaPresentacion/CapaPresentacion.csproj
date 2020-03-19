@@ -119,7 +119,6 @@
     <Compile Include="Informes\StockReducidoForm.Designer.cs">
       <DependentUpon>StockReducidoForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Informes\TotalesFactura.cs" />
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

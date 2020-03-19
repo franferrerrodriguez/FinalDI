@@ -30,6 +30,7 @@ namespace PresentacionWpf
         private Usuario usuarioEmpresa;
         private Usuario usuarioCliente;
         private List<Linped> listLinpeds;
+        private int totalLines = 25;
 
         public FichaFacturas(Modos modo, Window windowParent = null, UserControl userControlParent = null)
         {
@@ -45,7 +46,7 @@ namespace PresentacionWpf
             usuariosNegocio = new UsuariosNegocio();
 
             // Que se seleccione de la tabla
-            pedido = pedidosNegocio.LeerPedido(3L);
+            pedido = pedidosNegocio.LeerPedido(1L);
 
             usuarioEmpresa = LoginWindow.GetUsuarioLogado();
             usuarioCliente = usuariosNegocio.LeerUsuario(pedido.UsuarioID);
@@ -58,22 +59,21 @@ namespace PresentacionWpf
             set { _viewer.Document = value; }
         }
 
-        public void Header(FixedPage fp)
+        public void DocumentTitle(FixedPage fp, string title, int page, int totalPages)
         {
             List<KeyValuePair<string, string>> data = new List<KeyValuePair<string, string>>();
             data.Add(new KeyValuePair<string, string>("", ""));
-            data.Add(new KeyValuePair<string, string>("FACTURAS", "Página 1 de 1"));
-            data.Add(new KeyValuePair<string, string>("____________________________", "____________________________"));
+            data.Add(new KeyValuePair<string, string>(title, string.Format("Página {0} de {1}", page, totalPages)));
+            data.Add(new KeyValuePair<string, string>("", ""));
 
-            // Create the Grid
+            // GRID
             Grid myGrid = new Grid();
             myGrid.Width = 795;
             myGrid.Height = 60;
             myGrid.HorizontalAlignment = HorizontalAlignment.Left;
             myGrid.VerticalAlignment = VerticalAlignment.Top;
             // myGrid.ShowGridLines = true;
-
-            //////////////// HEADER ////////////////
+            
             // COLUMNS 
             ColumnDefinition colDef1 = new ColumnDefinition();
             colDef1.Width = new GridLength(50, GridUnitType.Pixel);
@@ -96,20 +96,20 @@ namespace PresentacionWpf
             {
                 RowDefinition rowDef = new RowDefinition();
                 myGrid.RowDefinitions.Add(rowDef);
-                // Add the second text cell to the Grid
+
                 TextBlock txt1 = new TextBlock();
                 txt1.Text = header.Key;
-                txt1.FontSize = n == 1 ? 16 : 12;
-                txt1.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt1.FontSize = 15;
+                txt1.FontWeight = FontWeights.Bold;
                 Grid.SetRow(txt1, n);
                 Grid.SetColumn(txt1, 1);
                 myGrid.Children.Add(txt1);
 
-                // Add the second text cell to the Grid
                 TextBlock txt2 = new TextBlock();
                 txt2.Text = header.Value;
-                txt2.FontSize = n == 1 ? 16 : 12;
-                txt2.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt2.FontSize = 15;
+                txt2.FontWeight = FontWeights.Bold;
+                txt2.TextAlignment = TextAlignment.Right;
                 Grid.SetRow(txt2, n);
                 Grid.SetColumn(txt2, 3);
                 myGrid.Children.Add(txt2);
@@ -124,33 +124,34 @@ namespace PresentacionWpf
         public void Encabezado(FixedPage fp)
         {
             List<KeyValuePair<string, string>> data = new List<KeyValuePair<string, string>>();
-            data.Add(new KeyValuePair<string, string>(usuarioCliente.Nombre, ""));
-            data.Add(new KeyValuePair<string, string>(!string.IsNullOrEmpty(usuarioCliente.Calle) ? usuarioCliente.Calle : usuarioCliente.Calle2, ""));
+            data.Add(new KeyValuePair<string, string>("CLIENTE", ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Nombre: {0}", usuarioCliente.Nombre), ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Dirección: {0}", !string.IsNullOrEmpty(usuarioCliente.Calle) ? usuarioCliente.Calle : usuarioCliente.Calle2), ""));
             Provincia provinciaCliente = usuariosNegocio.LeerProvincia(usuarioCliente.ProvinciaID);
-            data.Add(new KeyValuePair<string, string>(provinciaCliente.Nombre, ""));
-            data.Add(new KeyValuePair<string, string>(usuarioCliente.Dni, ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Provincia: {0}", provinciaCliente.Nombre), ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Documento: {0}", usuarioCliente.Dni), ""));
             Localidad localidadCliente = usuariosNegocio.LeerLocalidad(usuarioCliente.ProvinciaID, usuarioCliente.PuebloID);
-            data.Add(new KeyValuePair<string, string>(localidadCliente.Nombre, ""));
-            data.Add(new KeyValuePair<string, string>(usuarioCliente.Codpos, ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Localidad: {0}", localidadCliente.Nombre), ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("CP: {0}", usuarioCliente.Codpos), ""));
             data.Add(new KeyValuePair<string, string>("", ""));
-            data.Add(new KeyValuePair<string, string>(usuarioEmpresa.Nombre, pedido.PedidoID.ToString()));
-            data.Add(new KeyValuePair<string, string>(!string.IsNullOrEmpty(usuarioEmpresa.Calle) ? usuarioEmpresa.Calle : usuarioEmpresa.Calle2, pedido.Fecha.ToString()));
+            data.Add(new KeyValuePair<string, string>("EMPRESA", ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Nombre: {0}", usuarioEmpresa.Nombre), string.Format("Código factura: {0}", pedido.PedidoID.ToString())));
+            data.Add(new KeyValuePair<string, string>(string.Format("Dirección: {0}", !string.IsNullOrEmpty(usuarioEmpresa.Calle) ? usuarioEmpresa.Calle : usuarioEmpresa.Calle2), string.Format("Fecha factura: {0}", pedido.Fecha.ToString())));
             Provincia provinciaEmpresa = usuariosNegocio.LeerProvincia(usuarioEmpresa.ProvinciaID);
-            data.Add(new KeyValuePair<string, string>(provinciaEmpresa.Nombre, ""));
-            data.Add(new KeyValuePair<string, string>(usuarioEmpresa.Dni, ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Provincia: {0}", provinciaEmpresa.Nombre), ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Documento: {0}", usuarioEmpresa.Dni), ""));
             Localidad localidadEmpresa = usuariosNegocio.LeerLocalidad(usuarioEmpresa.ProvinciaID, usuarioEmpresa.PuebloID);
-            data.Add(new KeyValuePair<string, string>(localidadEmpresa.Nombre, ""));
-            data.Add(new KeyValuePair<string, string>(usuarioEmpresa.Codpos, ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("Localidad: {0}", localidadEmpresa.Nombre), ""));
+            data.Add(new KeyValuePair<string, string>(string.Format("CP: {0}", usuarioEmpresa.Codpos), ""));
 
-            // Create the Grid
+            // GRID
             Grid myGrid = new Grid();
             myGrid.Width = 795;
             myGrid.Height = 280;
             myGrid.HorizontalAlignment = HorizontalAlignment.Left;
             myGrid.VerticalAlignment = VerticalAlignment.Top;
             // myGrid.ShowGridLines = true;
-
-            //////////////// HEADER ////////////////
+            
             // COLUMNS 
             ColumnDefinition colDef1 = new ColumnDefinition();
             colDef1.Width = new GridLength(50, GridUnitType.Pixel);
@@ -176,8 +177,8 @@ namespace PresentacionWpf
                 // Add the second text cell to the Grid
                 TextBlock txt1 = new TextBlock();
                 txt1.Text = header.Key;
-                txt1.FontSize = n == 1 ? 16 : 12;
-                txt1.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt1.FontSize = 12;
+                txt1.FontWeight = FontWeights.Regular;
                 Grid.SetRow(txt1, n);
                 Grid.SetColumn(txt1, 1);
                 myGrid.Children.Add(txt1);
@@ -185,8 +186,8 @@ namespace PresentacionWpf
                 // Add the second text cell to the Grid
                 TextBlock txt2 = new TextBlock();
                 txt2.Text = header.Value;
-                txt2.FontSize = n == 1 ? 16 : 12;
-                txt2.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt2.FontSize = 12;
+                txt2.FontWeight = FontWeights.Regular;
                 Grid.SetRow(txt2, n);
                 Grid.SetColumn(txt2, 3);
                 myGrid.Children.Add(txt2);
@@ -198,26 +199,34 @@ namespace PresentacionWpf
             fp.Children.Add(myGrid);
         }
 
-        public void Lineas(FixedPage fp)
+        public void Lineas(FixedPage fp, List<Linped> linpeds)
         {
             List<string[]> data = new List<string[]>();
-            string[] header = { "ID", "1", "1", "1", "1" };
+            string[] header = { "Línea", "Descripción", "Cantidad", "Importe Bruto", "Importe Total" };
             data.Add(header);
-            for (int i = 0; i < 25; i++)
+            
+            foreach(Linped linped in linpeds)
             {
-                string[] s = { "1", "1", "1", "1", "1" };
+                string[] s = { linped.Linea.ToString(), linped.ArticuloID, linped.Cantidad.ToString(),
+                    string.Format("{0} €", linped.Importe.ToString()), string.Format("{0} €", 
+                    (linped.Cantidad * linped.Importe).ToString()) };
                 data.Add(s);
             }
 
-            // Create the Grid
+            for(int a = linpeds.Count; a < totalLines; a++)
+            {
+                string[] s = { "", "", "", "", "" };
+                data.Add(s);
+            }
+
+            // GRID
             Grid myGrid = new Grid();
             myGrid.Width = 795;
             myGrid.Height = 1000;
             myGrid.HorizontalAlignment = HorizontalAlignment.Left;
             myGrid.VerticalAlignment = VerticalAlignment.Top;
             // myGrid.ShowGridLines = true;
-
-            //////////////// HEADER ////////////////
+            
             // COLUMNS 
             ColumnDefinition colDef1 = new ColumnDefinition();
             colDef1.Width = new GridLength(50, GridUnitType.Pixel);
@@ -242,6 +251,7 @@ namespace PresentacionWpf
                 string[] s = { "", "", "", "", "" };
                 data.Add(s);
             }
+            bool first = true;
             foreach (string[] s in data)
             {
                 RowDefinition rowDef = new RowDefinition();
@@ -249,24 +259,24 @@ namespace PresentacionWpf
 
                 TextBlock txt1 = new TextBlock();
                 txt1.Text = s[0];
-                txt1.FontSize = n == 1 ? 16 : 12;
-                txt1.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt1.FontSize = 12;
+                txt1.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
                 Grid.SetRow(txt1, n);
                 Grid.SetColumn(txt1, 1);
                 myGrid.Children.Add(txt1);
 
                 TextBlock txt2 = new TextBlock();
                 txt2.Text = s[1];
-                txt2.FontSize = n == 1 ? 16 : 12;
-                txt2.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt2.FontSize = 12;
+                txt2.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
                 Grid.SetRow(txt2, n);
                 Grid.SetColumn(txt2, 2);
                 myGrid.Children.Add(txt2);
 
                 TextBlock txt3 = new TextBlock();
                 txt3.Text = s[2];
-                txt3.FontSize = n == 1 ? 16 : 12;
-                txt3.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt3.FontSize = 12;
+                txt3.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
                 txt3.TextAlignment = TextAlignment.Center;
                 Grid.SetRow(txt3, n);
                 Grid.SetColumn(txt3, 3);
@@ -274,8 +284,8 @@ namespace PresentacionWpf
 
                 TextBlock txt4 = new TextBlock();
                 txt4.Text = s[3];
-                txt4.FontSize = n == 1 ? 16 : 12;
-                txt4.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt4.FontSize = 12;
+                txt4.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
                 txt4.TextAlignment = TextAlignment.Right;
                 Grid.SetRow(txt4, n);
                 Grid.SetColumn(txt4, 4);
@@ -283,13 +293,106 @@ namespace PresentacionWpf
 
                 TextBlock txt5 = new TextBlock();
                 txt5.Text = s[4];
-                txt5.FontSize = n == 1 ? 16 : 12;
-                txt5.FontWeight = n == 1 ? FontWeights.Bold : FontWeights.Regular;
+                txt5.FontSize = 12;
+                txt5.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
                 txt5.TextAlignment = TextAlignment.Right;
                 Grid.SetRow(txt5, n);
                 Grid.SetColumn(txt5, 5);
                 myGrid.Children.Add(txt5);
 
+                first = false;
+                n++;
+            }
+
+            // Add the Grid as the Content of the Parent Window Object
+            fp.Children.Add(myGrid);
+        }
+
+        public void Pie(FixedPage fp, TotalesFactura totalesFactura)
+        {
+            List<string[]> data = new List<string[]>();
+            string[] header = { "Base Imponible", "I.V.A. (%)", "Total I.V.A.", "Total Factura" };
+            data.Add(header);
+
+            string[] s1 = { string.Format("{0} €", totalesFactura.BaseImponible.ToString()),
+                string.Format("{0} %", totalesFactura.Iva.ToString()),
+                string.Format("{0} €", totalesFactura.TotalIva.ToString()),
+                string.Format("{0} €", totalesFactura.TotalFactura.ToString()) };
+            data.Add(s1);
+
+            // GRID
+            Grid myGrid = new Grid();
+            myGrid.Width = 795;
+            myGrid.Height = 1100;
+            myGrid.HorizontalAlignment = HorizontalAlignment.Left;
+            myGrid.VerticalAlignment = VerticalAlignment.Top;
+            // myGrid.ShowGridLines = true;
+
+            // COLUMNS 
+            ColumnDefinition colDef1 = new ColumnDefinition();
+            colDef1.Width = new GridLength(50, GridUnitType.Pixel);
+            ColumnDefinition colDef2 = new ColumnDefinition();
+            ColumnDefinition colDef3 = new ColumnDefinition();
+            ColumnDefinition colDef4 = new ColumnDefinition();
+            ColumnDefinition colDef5 = new ColumnDefinition();
+            ColumnDefinition colDef6 = new ColumnDefinition();
+            colDef6.Width = new GridLength(50, GridUnitType.Pixel);
+            myGrid.ColumnDefinitions.Add(colDef1);
+            myGrid.ColumnDefinitions.Add(colDef2);
+            myGrid.ColumnDefinitions.Add(colDef3);
+            myGrid.ColumnDefinitions.Add(colDef4);
+            myGrid.ColumnDefinitions.Add(colDef5);
+            myGrid.ColumnDefinitions.Add(colDef6);
+
+            int n = 32;
+            for (int i = 0; i < n; i++)
+            {
+                string[] s = { "", "", "", "", "" };
+                data.Add(s);
+            }
+            bool first = true;
+            foreach (string[] s in data)
+            {
+                RowDefinition rowDef = new RowDefinition();
+                myGrid.RowDefinitions.Add(rowDef);
+
+                TextBlock txt1 = new TextBlock();
+                txt1.Text = s[0];
+                txt1.FontSize = 12;
+                txt1.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
+                txt1.TextAlignment = TextAlignment.Center;
+                Grid.SetRow(txt1, n);
+                Grid.SetColumn(txt1, 1);
+                myGrid.Children.Add(txt1);
+                
+                TextBlock txt2 = new TextBlock();
+                txt2.Text = s[1];
+                txt2.FontSize = 12;
+                txt2.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
+                txt2.TextAlignment = TextAlignment.Center;
+                Grid.SetRow(txt2, n);
+                Grid.SetColumn(txt2, 2);
+                myGrid.Children.Add(txt2);
+
+                TextBlock txt3 = new TextBlock();
+                txt3.Text = s[2];
+                txt3.FontSize = 12;
+                txt3.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
+                txt3.TextAlignment = TextAlignment.Center;
+                Grid.SetRow(txt3, n);
+                Grid.SetColumn(txt3, 3);
+                myGrid.Children.Add(txt3);
+
+                TextBlock txt4 = new TextBlock();
+                txt4.Text = s[3];
+                txt4.FontSize = 12;
+                txt4.FontWeight = first ? FontWeights.Bold : FontWeights.Regular;
+                txt4.TextAlignment = TextAlignment.Center;
+                Grid.SetRow(txt4, n);
+                Grid.SetColumn(txt4, 4);
+                myGrid.Children.Add(txt4);
+
+                first = false;
                 n++;
             }
 
@@ -303,56 +406,47 @@ namespace PresentacionWpf
         /// <param name="tam"></param>
         private void CrearDocumento(Size tam)
         {
-            doc.DocumentPaginator.PageSize = tam;
-            FixedPage fp = new FixedPage
+            List<List<Linped>> tmpList1 = new List<List<Linped>>();
+            List<Linped> tmpList2 = new List<Linped>();
+            int cont1 = 0;
+            int cont2 = 0;
+            foreach(Linped linped in listLinpeds)
             {
-                Width = doc.DocumentPaginator.PageSize.Width,
-                Height = doc.DocumentPaginator.PageSize.Height
-            };
+                if(cont1 == totalLines || listLinpeds.Count == cont2 + 1)
+                {
+                    cont1 = 0;
+                    tmpList1.Add(tmpList2);
+                    tmpList2 = new List<Linped>();
+                }
 
-            Header(fp);
-            Encabezado(fp);
-            Lineas(fp);
+                tmpList2.Add(linped);
 
-            //Añadimos la página al documento
-            PageContent pc = new PageContent();
-            ((IAddChild)pc).AddChild(fp);
-            doc.Pages.Add(pc);
+                cont1++;
+                cont2++;
+            }
 
-            // Creamos un textblock para imprimerlo
-            /*TextBlock blk = new TextBlock
+            for(int i = 0; i <= listLinpeds.Count / totalLines; i++)
             {
-                Text = "Esto es el texto que se impimirá",
-                FontFamily = new FontFamily("Arial"),
-                FontSize = 12,
-                FontStretch = FontStretches.Expanded,
-                FontStyle = FontStyles.Italic,
-                TextWrapping = TextWrapping.Wrap,
-                Margin = new Thickness(200, 400, 50, 10),
-                Padding = new Thickness(2)
-            };
-            fp.Children.Add(blk);
+                int n1 = (listLinpeds.Count / totalLines) + 1;
+                doc.DocumentPaginator.PageSize = tam;
+                FixedPage fp = new FixedPage
+                {
+                    Width = doc.DocumentPaginator.PageSize.Width,
+                    Height = doc.DocumentPaginator.PageSize.Height
+                };
 
-            //Añadimos la página al documento
-            PageContent pc = new PageContent();
-            ((IAddChild)pc).AddChild(fp);
-            doc.Pages.Add(pc);
+                DocumentTitle(fp, "FACTURAS", i + 1, listLinpeds.Count / totalLines + 1);
+                Encabezado(fp);
+                Lineas(fp, tmpList1[i]);
 
-            // Añadimos una segunda página
-            FixedPage fp2 = new FixedPage
-            {
-                Width = doc.DocumentPaginator.PageSize.Width,
-                Height = doc.DocumentPaginator.PageSize.Height
-            };
-            TextBlock page2Text = new TextBlock();
-            page2Text.Text = "No es la primera hoja";
-            page2Text.FontSize = 40;
-            page2Text.Margin = new Thickness(96);
-            fp2.Children.Add(page2Text);
+                Pie(fp, new TotalesFactura(pedidosNegocio.CalcularBaseImponible(listLinpeds), pedidosNegocio.GetIva(), pedidosNegocio.CalcularTotalIva(listLinpeds), pedidosNegocio.CalcularImporteTotal(listLinpeds)));
 
-            PageContent page2Content = new PageContent();
-            ((IAddChild)page2Content).AddChild(fp2);
-            doc.Pages.Add(page2Content);*/
+                //Añadimos la página al documento
+                PageContent pc = new PageContent();
+                ((IAddChild)pc).AddChild(fp);
+                doc.Pages.Add(pc);
+            }
+
         }
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
