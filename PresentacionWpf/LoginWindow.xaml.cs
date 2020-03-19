@@ -32,6 +32,7 @@ namespace PresentacionWpf
             InitializeComponent();
             loginNegocio = new LoginNegocio();
             numIntentos = 0;
+            Login();
         }
 
         private void Button_Close(object sender, RoutedEventArgs e)
@@ -73,6 +74,11 @@ namespace PresentacionWpf
                 Reset();
                 MessageBox.Show("Error en la combinación de login / password. Por favor, inténtelo de nuevo.");
             }
+        }
+
+        public static Usuario GetUsuarioLogado()
+        {
+            return usuarioLogado;
         }
 
         private void Reset()

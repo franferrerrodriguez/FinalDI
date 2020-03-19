@@ -77,6 +77,23 @@ namespace CapaNegocio
             }
         }
 
+        /// <summary>
+        /// Método encargado de leer un pedido
+        /// </summary>
+        /// <returns>Pedido</returns>
+        /// <author>Francisco José Ferrer Rodríguez</author>
+        public Pedido LeerPedido(long pedidoId)
+        {
+            try
+            {
+                return pedidoAdo.LeerPedido(pedidoId);
+            }
+            catch (Exception e)
+            {
+                throw e;
+            }
+        }
+
 
         /// <summary>
         /// Método encargado de leer líneas de pedido
