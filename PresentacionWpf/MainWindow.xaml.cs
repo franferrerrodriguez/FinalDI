@@ -88,14 +88,14 @@ namespace PresentacionWpf
 
         public void CloseUserControl()
         {
-            panel_Main.Children.Clear();
+            MainPanel.Children.Clear();
         }
 
         public void SetUserControlChildren(UserControl uc = null)
         {
             CloseUserControl();
             if (uc != null)
-                panel_Main.Children.Add(uc);
+                MainPanel.Children.Add(uc);
         }
 
         private void ListView_PreviewMouseLeftButtonUp(object sender, MouseButtonEventArgs e)

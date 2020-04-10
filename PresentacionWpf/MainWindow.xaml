@@ -19,7 +19,7 @@
             </DoubleAnimationUsingKeyFrames>
 
             <!-- Animación panel -->
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="panel_Main">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="MainPanel">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1070"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -33,7 +33,7 @@
             </DoubleAnimationUsingKeyFrames>
 
             <!-- Animación panel -->
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="panel_Main">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="MainPanel">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1220"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
@@ -50,7 +50,7 @@
     </Window.Triggers>
 
     <Grid Background="LightGray">
-        <Grid x:Name="panel_Main" HorizontalAlignment="Right" VerticalAlignment="Top" Height="842" Width="1070" Margin="0,50,-0.333,0">
+        <Grid x:Name="MainPanel" HorizontalAlignment="Right" VerticalAlignment="Top" Height="842" Width="1070" Margin="0,50,-0.333,0">
             <Grid.Background>
                 <SolidColorBrush Color="{DynamicResource BackgroundWindow}"/>
             </Grid.Background>
